@@ -1,0 +1,6 @@
+/work/
+/artifacts/
+*.apk
+*.xapk
+*.jar
+*.keystore
