@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>ਘੱਟ</item>
+        <item>ਸਧਾਰਨ</item>
+        <item>ਬਿਹਤਰੀਨ</item>
+        <item>ਹਮੇਸ਼ਾਂ ਬਿਹਤਰੀਨ</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>5 ਸਕਿੰਟ</item>
+        <item>10 ਸਕਿੰਟ</item>
+        <item>15 ਸਕਿੰਟ</item>
+        <item>20 ਸਕਿੰਟ</item>
+        <item>30 ਸਕਿੰਟ</item>
+        <item>60 ਸਕਿੰਟ</item>
+    </array>
+</resources>

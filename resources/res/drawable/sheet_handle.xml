@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:gravity="top|center_horizontal"
+        android:top="@dimen/bottom_sheet_handle_margin">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/yt_sys_measurement_radius_min"/>
+            <size
+                android:height="@dimen/yt_sys_measurement_size_min"
+                android:width="@dimen/yt_sys_measurement_size_hero"/>
+            <solid android:color="?attr/yt10PercentLayer"/>
+        </shape>
+    </item>
+</layer-list>

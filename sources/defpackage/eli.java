@@ -1,0 +1,19 @@
+package defpackage;
+
+import android.graphics.Canvas;
+import android.graphics.Matrix;
+import android.graphics.RectF;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes.dex */
+public final class eli extends ele {
+    @Override // defpackage.ele, defpackage.eic
+    public final void c(RectF rectF, Matrix matrix, boolean z) {
+        super.c(rectF, matrix, z);
+        rectF.set(0.0f, 0.0f, 0.0f, 0.0f);
+    }
+
+    @Override // defpackage.ele
+    public final void j(Canvas canvas, Matrix matrix, int i) {
+    }
+}

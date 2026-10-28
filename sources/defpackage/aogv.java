@@ -1,0 +1,55 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes5.dex */
+public enum aogv implements aihr {
+    UNKNOWN_FAILURE_REASON(0),
+    CONNECTION_LOST(1),
+    LOW_STORAGE(2),
+    NO_FETCHED_DATA(3),
+    NO_RESPONSE(4),
+    NO_VIDEO_STREAM(5),
+    NOT_OFFLINABLE(6),
+    TOO_MANY_RETRIES(7),
+    OFFLINE_CONTENT_VALIDATION_ERROR(8),
+    OFFLINE_CONTENT_EXPIRED(9),
+    NOT_PLAYABLE(10),
+    NO_OFFLINE_STORAGE(11),
+    TRANSFER_PAUSED(12),
+    AD_FAILED_TO_GET_FORMAT_STREAM(13),
+    AD_NO_FORMAT_STREAMS_AVAILABLE(14),
+    AD_FAILED_UNKNOWN_REASON(15),
+    PLAYER_REQUEST_FAILURE(16),
+    OFFLINE_REQUEST_FAILURE(17),
+    OFFLINE_DATABASE_ERROR(18),
+    OFFLINE_DOWNLOAD_CONTROLLER_ERROR(19),
+    OFFLINE_VIDEO_NOT_FOUND_IN_DATABASE(20),
+    OFFLINE_DISK_ERROR(21),
+    OFFLINE_TRANSFER_INTERRUPTED(22),
+    OFFLINE_WIDEVINE_EXCEPTION(23),
+    OFFLINE_NETWORK_ERROR(24),
+    OFFLINE_TIME_WINDOW_EXCEEDED(25),
+    NO_AUDIO_STREAM(26),
+    TOO_MANY_FAILED_STREAM_VERIFICATIONS(27),
+    STREAM_VERIFICATION_FAILED(28),
+    RETRY_NOT_ALLOWED(29),
+    CANNOT_DOWNLOAD_STREAMS_FOR_OFFLINE_REFRESH(30),
+    YTB_ERROR(31),
+    OFFLINE_STREAM_URL_EXPIRED(32);
+
+    public final int H;
+
+    aogv(int i) {
+        this.H = i;
+    }
+
+    @Override // defpackage.aihr
+    public final int getNumber() {
+        return this.H;
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return Integer.toString(this.H);
+    }
+}

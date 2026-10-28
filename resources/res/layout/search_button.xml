@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/action_search_button"
+    android:visibility="visible"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/yt_outline_search_white_24"
+    android:contentDescription="@string/search"
+    yt:tint="@color/ytm_icon_color_active"
+    style="?android:attr/actionButtonStyle"/>

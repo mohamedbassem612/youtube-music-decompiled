@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>Rendah</item>
+        <item>Biasa</item>
+        <item>Tinggi</item>
+        <item>Sentiasa Tinggi</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>5 saat</item>
+        <item>10 saat</item>
+        <item>15 saat</item>
+        <item>20 saat</item>
+        <item>30 saat</item>
+        <item>60 saat</item>
+    </array>
+</resources>

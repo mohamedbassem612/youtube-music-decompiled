@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tabs_bar_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:id="@+id/tabs_bar_content"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginHorizontal="16dp"
+        yt:layout_constraintBottom_toTopOf="@+id/tabs_bar_bottom_separator"
+        yt:layout_constraintEnd_toEndOf="parent"
+        yt:layout_constraintStart_toStartOf="parent"
+        yt:layout_constraintTop_toTopOf="parent">
+        <com.google.android.libraries.youtube.rendering.ui.tabs.DefaultTabsBar
+            android:id="@+id/tabs_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            yt:bottom_divider_color="?attr/ytOutline"
+            yt:tab_content_color="?attr/ytTextSecondary"
+            yt:tab_highlight_color="?attr/ytTextPrimary"
+            yt:tab_scroll_margin="48dp"/>
+        <ViewStub
+            android:layout_gravity="end"
+            android:id="@+id/pinned_floating_tab_button_stub"
+            android:layout="@layout/pinned_floating_tab_button_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </FrameLayout>
+    <View
+        android:id="@+id/tabs_bar_bottom_separator"
+        android:background="?attr/ytOutline"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/yt_sys_measurement_size_hairline"
+        yt:layout_constraintBottom_toBottomOf="parent"
+        yt:layout_constraintEnd_toEndOf="parent"
+        yt:layout_constraintStart_toStartOf="parent"
+        yt:layout_constraintTop_toBottomOf="@+id/tabs_bar_content"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

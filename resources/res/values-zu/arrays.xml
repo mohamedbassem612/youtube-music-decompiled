@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>Iphansi</item>
+        <item>Ijwayelekile</item>
+        <item>Iphezulu</item>
+        <item>Ihlala iphezulu</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>amasekhondi angu-5</item>
+        <item>Amasekhondi angu-10</item>
+        <item>amasekhondi angu-15</item>
+        <item>amasekhondi angama-20</item>
+        <item>amasekhondi angama-30</item>
+        <item>amasekhondi angama-60</item>
+    </array>
+</resources>

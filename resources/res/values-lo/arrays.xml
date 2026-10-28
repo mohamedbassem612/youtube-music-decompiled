@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>ຕ່ຳ</item>
+        <item>ປົກກະຕິ</item>
+        <item>ສູງ</item>
+        <item>ສູງຕະຫຼອດ</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>5 ວິນາທີ</item>
+        <item>10 ວິນາທີ</item>
+        <item>15 ວິນາທີ</item>
+        <item>20 ວິນາທີ</item>
+        <item>30 ວິນາທີ</item>
+        <item>60 ວິນາທີ</item>
+    </array>
+</resources>

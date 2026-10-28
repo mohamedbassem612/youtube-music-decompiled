@@ -1,0 +1,154 @@
+package defpackage;
+
+import android.content.Context;
+import android.content.SharedPreferences;
+import java.util.concurrent.Executor;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes.dex */
+public final class hoa {
+    private final awmd A;
+    private final awmd B;
+    private final awmd a;
+    private final awmd b;
+    private final awmd c;
+    private final awmd d;
+    private final awmd e;
+    private final awmd f;
+    private final awmd g;
+    private final awmd h;
+    private final awmd i;
+    private final awmd j;
+    private final awmd k;
+    private final awmd l;
+    private final awmd m;
+    private final awmd n;
+    private final awmd o;
+    private final awmd p;
+    private final awmd q;
+    private final awmd r;
+    private final awmd s;
+    private final awmd t;
+    private final awmd u;
+    private final awmd v;
+    private final awmd w;
+    private final awmd x;
+    private final awmd y;
+    private final awmd z;
+
+    public hoa(awmd awmdVar, awmd awmdVar2, awmd awmdVar3, awmd awmdVar4, awmd awmdVar5, awmd awmdVar6, awmd awmdVar7, awmd awmdVar8, awmd awmdVar9, awmd awmdVar10, awmd awmdVar11, awmd awmdVar12, awmd awmdVar13, awmd awmdVar14, awmd awmdVar15, awmd awmdVar16, awmd awmdVar17, awmd awmdVar18, awmd awmdVar19, awmd awmdVar20, awmd awmdVar21, awmd awmdVar22, awmd awmdVar23, awmd awmdVar24, awmd awmdVar25, awmd awmdVar26, awmd awmdVar27, awmd awmdVar28) {
+        awmdVar.getClass();
+        this.a = awmdVar;
+        awmdVar2.getClass();
+        this.b = awmdVar2;
+        awmdVar3.getClass();
+        this.c = awmdVar3;
+        awmdVar4.getClass();
+        this.d = awmdVar4;
+        awmdVar5.getClass();
+        this.e = awmdVar5;
+        awmdVar6.getClass();
+        this.f = awmdVar6;
+        awmdVar7.getClass();
+        this.g = awmdVar7;
+        awmdVar8.getClass();
+        this.h = awmdVar8;
+        awmdVar9.getClass();
+        this.i = awmdVar9;
+        this.j = awmdVar10;
+        awmdVar11.getClass();
+        this.k = awmdVar11;
+        this.l = awmdVar12;
+        awmdVar13.getClass();
+        this.m = awmdVar13;
+        this.n = awmdVar14;
+        this.o = awmdVar15;
+        awmdVar16.getClass();
+        this.p = awmdVar16;
+        awmdVar17.getClass();
+        this.q = awmdVar17;
+        awmdVar18.getClass();
+        this.r = awmdVar18;
+        awmdVar19.getClass();
+        this.s = awmdVar19;
+        awmdVar20.getClass();
+        this.t = awmdVar20;
+        awmdVar21.getClass();
+        this.u = awmdVar21;
+        this.v = awmdVar22;
+        awmdVar23.getClass();
+        this.w = awmdVar23;
+        awmdVar24.getClass();
+        this.x = awmdVar24;
+        awmdVar25.getClass();
+        this.y = awmdVar25;
+        awmdVar26.getClass();
+        this.z = awmdVar26;
+        awmdVar27.getClass();
+        this.A = awmdVar27;
+        awmdVar28.getClass();
+        this.B = awmdVar28;
+    }
+
+    /* JADX WARN: Type inference failed for: r12v0, types: [aunn, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r17v0, types: [aunn, java.lang.Object] */
+    public final hnz a(aaeg aaegVar) {
+        Context context = (Context) this.a.io();
+        context.getClass();
+        mbc mbcVar = (mbc) this.b.io();
+        mbcVar.getClass();
+        twf twfVar = (twf) this.c.io();
+        twfVar.getClass();
+        xow xowVar = (xow) this.d.io();
+        xowVar.getClass();
+        aacm aacmVar = (aacm) this.e.io();
+        aacmVar.getClass();
+        abxv abxvVar = (abxv) this.f.io();
+        abxvVar.getClass();
+        SharedPreferences sharedPreferences = (SharedPreferences) this.g.io();
+        sharedPreferences.getClass();
+        zwb zwbVar = (zwb) this.h.io();
+        zwbVar.getClass();
+        jkg jkgVar = (jkg) this.i.io();
+        jkgVar.getClass();
+        ?? Io = this.j.io();
+        Io.getClass();
+        Executor executor = (Executor) this.k.io();
+        executor.getClass();
+        hnq hnqVar = (hnq) this.l.io();
+        hnqVar.getClass();
+        hlp hlpVar = (hlp) this.m.io();
+        hlpVar.getClass();
+        tfq tfqVar = (tfq) this.n.io();
+        tfqVar.getClass();
+        ?? Io2 = this.o.io();
+        Io2.getClass();
+        ((kro) this.p.io()).getClass();
+        huh huhVar = (huh) this.q.io();
+        huhVar.getClass();
+        huf hufVar = (huf) this.r.io();
+        hufVar.getClass();
+        hfn hfnVar = (hfn) this.s.io();
+        hfnVar.getClass();
+        aany aanyVar = (aany) this.t.io();
+        aanyVar.getClass();
+        hpy hpyVar = (hpy) this.u.io();
+        hpyVar.getClass();
+        syn synVar = (syn) this.v.io();
+        synVar.getClass();
+        hpb hpbVar = (hpb) this.w.io();
+        hpbVar.getClass();
+        hpk hpkVar = (hpk) this.x.io();
+        hpkVar.getClass();
+        tbt tbtVar = (tbt) this.y.io();
+        tbtVar.getClass();
+        Integer num = (Integer) this.z.io();
+        num.getClass();
+        hsz hszVar = (hsz) this.A.io();
+        hszVar.getClass();
+        vxz vxzVar = (vxz) this.B.io();
+        vxzVar.getClass();
+        aaegVar.getClass();
+        return new hnz(context, mbcVar, twfVar, xowVar, aacmVar, abxvVar, sharedPreferences, zwbVar, jkgVar, Io, executor, hnqVar, hlpVar, tfqVar, Io2, huhVar, hufVar, hfnVar, aanyVar, hpyVar, synVar, hpbVar, hpkVar, tbtVar, num, hszVar, vxzVar, aaegVar);
+    }
+}

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="one">%d jam</item>
+        <item quantity="other">%d jam</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours_label">
+        <item quantity="one">jam</item>
+        <item quantity="other">jam</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="one">%d menit</item>
+        <item quantity="other">%d menit</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes_label">
+        <item quantity="one">menit</item>
+        <item quantity="other">menit</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="one">%d detik</item>
+        <item quantity="other">%d detik</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds_label">
+        <item quantity="one">detik</item>
+        <item quantity="other">detik</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="one">Lewati iklan dalam 1 detik</item>
+        <item quantity="other">Lewati iklan dalam %1$d detik</item>
+    </plurals>
+    <plurals name="auto_playlist_with_episode_count_item_subtitle">
+        <item quantity="one">Playlist otomatis • 1 episode</item>
+        <item quantity="other">Playlist otomatis • %1$d episode</item>
+    </plurals>
+    <plurals name="auto_playlist_with_size_item_subtitle">
+        <item quantity="one">Playlist otomatis • 1 lagu</item>
+        <item quantity="other">Playlist otomatis • %1$d lagu</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_down">
+        <item quantity="one">Video turun %d peringkat</item>
+        <item quantity="other">Video turun %1$d peringkat</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_up">
+        <item quantity="one">Video naik %d peringkat</item>
+        <item quantity="other">Video naik %1$d peringkat</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="one">%1$d jam</item>
+        <item quantity="other">%1$d jam</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="one">%s jam</item>
+        <item quantity="other">%s jam</item>
+    </plurals>
+    <plurals name="menu_option_hours">
+        <item quantity="one">%s jam</item>
+        <item quantity="other">%s jam</item>
+    </plurals>
+    <plurals name="menu_option_minutes">
+        <item quantity="one">%s menit</item>
+        <item quantity="other">%s menit</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="one">%s mnt</item>
+        <item quantity="other">%s mnt</item>
+    </plurals>
+    <plurals name="music_duration_minutes">
+        <item quantity="one">%1$d menit</item>
+        <item quantity="other">%1$d menit</item>
+    </plurals>
+    <plurals name="notification_offline_playlist_progress_track_count">
+        <item quantity="one">%1$d dari 1 trek</item>
+        <item quantity="other">%1$d dari %2$d trek</item>
+    </plurals>
+    <plurals name="offline_playlist_size">
+        <item quantity="one">1 lagu</item>
+        <item quantity="other">%1$,d lagu</item>
+    </plurals>
+    <plurals name="offline_playlist_size_and_duration">
+        <item quantity="one">1 lagu • %2$s</item>
+        <item quantity="other">%1$,d lagu • %2$s</item>
+    </plurals>
+    <plurals name="offline_podcast_playlist_size">
+        <item quantity="one">1 episode</item>
+        <item quantity="other">%1$,d episode</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_size_item_subtitle">
+        <item quantity="one">%1$s • 1 lagu</item>
+        <item quantity="other">%1$s • %2$d lagu</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_track_count_item_subtitle">
+        <item quantity="one">%1$s • 1 trek</item>
+        <item quantity="other">%1$s • %2$d trek</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_size_item_subtitle">
+        <item quantity="one">Playlist • %1$s • 1 lagu</item>
+        <item quantity="other">Playlist • %1$s • %2$d lagu</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_track_count_item_subtitle">
+        <item quantity="one">Playlist • %1$s • 1 trek</item>
+        <item quantity="other">Playlist • %1$s • %2$d trek</item>
+    </plurals>
+    <plurals name="podcast_episodes_count">
+        <item quantity="one">1 episode</item>
+        <item quantity="other">%1$d episode</item>
+    </plurals>
+    <plurals name="podcast_with_entity_type_and_creator_and_episode_count_item_subtitle">
+        <item quantity="one">Podcast • %1$s • 1 episode</item>
+        <item quantity="other">Podcast • %1$s • %2$d episode</item>
+    </plurals>
+    <plurals name="pref_enable_smart_download_recent_music_summary">
+        <item quantity="one">Kami akan mendownload hingga %1$d lagu yang terakhir Anda putar.</item>
+        <item quantity="other">Kami akan mendownload hingga %1$d lagu yang terakhir Anda putar.</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">Anda memiliki notifikasi</item>
+        <item quantity="other">%1$d notifikasi baru</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="one">%d detik</item>
+        <item quantity="other">%d detik</item>
+    </plurals>
+    <plurals name="smart_downloads_details_header_byline_explanation">
+        <item quantity="one">%1$d lagu didownload dengan Smart download</item>
+        <item quantity="other">%1$d lagu didownload dengan Smart download</item>
+    </plurals>
+    <plurals name="smart_downloads_num_songs_estimated_space">
+        <item quantity="one">%1$d lagu (~%2$s)</item>
+        <item quantity="other">%1$d lagu (~%2$s)</item>
+    </plurals>
+    <plurals name="song_count">
+        <item quantity="one">1 lagu</item>
+        <item quantity="other">%1$d lagu</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="one">Kembali lagi dalam 1 hari</item>
+        <item quantity="other">Kembali lagi dalam %1$d hari</item>
+    </plurals>
+    <plurals name="track_count">
+        <item quantity="one">1 trek</item>
+        <item quantity="other">%1$d trek</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="one">Ketuk dua kali di sebelah kiri atau kanan untuk melompat %d detik</item>
+        <item quantity="other">Ketuk dua kali di sebelah kiri atau kanan untuk melompat %d detik</item>
+    </plurals>
+</resources>

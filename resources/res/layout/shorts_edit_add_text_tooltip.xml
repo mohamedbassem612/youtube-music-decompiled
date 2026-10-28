@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.creation.common.ui.ShortsEditTooltipButtonView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/shorts_edit_tooltip_item_height"
+    android:paddingStart="@dimen/shorts_edit_tooltip_item_padding"
+    android:paddingEnd="@dimen/shorts_edit_tooltip_item_padding"
+    app:buttonContentDescription="@string/shorts_edit_edit_text_tooltip"
+    app:buttonText="@string/shorts_edit_edit_text_tooltip"
+    app:iconDrawable="@drawable/ic_add_text_track"/>

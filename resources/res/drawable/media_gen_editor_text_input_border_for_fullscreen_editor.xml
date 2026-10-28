@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="?attr/ytOverlayBackgroundHeavy"/>
+    <stroke
+        android:width="@dimen/yt_sys_measurement_stroke_comfortable"
+        android:color="?attr/ytOutline"/>
+    <corners
+        android:topLeftRadius="@dimen/yt_sys_measurement_radius_expanded"
+        android:topRightRadius="@dimen/yt_sys_measurement_radius_expanded"
+        android:bottomLeftRadius="@dimen/yt_sys_measurement_radius_expanded"
+        android:bottomRightRadius="@dimen/yt_sys_measurement_radius_expanded"/>
+</shape>

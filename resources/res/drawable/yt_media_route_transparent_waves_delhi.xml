@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_enabled="true"
+        android:state_checked="true"
+        android:drawable="@drawable/yt_fill_experimental_chromecast_vd_theme_24"/>
+    <item
+        android:state_enabled="true"
+        android:state_checkable="true"
+        android:drawable="@drawable/yt_media_route_transparent_waves_connecting_delhi"/>
+    <item
+        android:state_enabled="true"
+        android:drawable="@drawable/yt_outline_experimental_chromecast_vd_theme_24"/>
+    <item android:drawable="@drawable/yt_outline_experimental_chromecast_vd_theme_24"/>
+</selector>

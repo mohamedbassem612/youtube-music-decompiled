@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView
+        android:textColor="?attr/ytTextSecondary"
+        android:gravity="center_vertical"
+        android:id="@+id/footer_text"
+        android:background="?attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/yt_sys_measurement_size_legend"
+        android:textAlignment="viewStart"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        style="?attr/textAppearanceSubhead"/>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48dp</dimen>
+    <dimen name="google_toolbar_text_size_subtitle">12dp</dimen>
+    <dimen name="google_toolbar_text_size_title">14dp</dimen>
+    <dimen name="mr_controller_volume_group_list_item_height">61dp</dimen>
+    <dimen name="mr_controller_volume_group_list_item_icon_size">18dp</dimen>
+    <dimen name="mr_controller_volume_group_list_max_height">132dp</dimen>
+    <dimen name="mtrl_calendar_header_height_fullscreen">96dp</dimen>
+    <dimen name="music_entity_header_bottom_margin">@dimen/item_large_spacing</dimen>
+    <dimen name="music_entity_thumbnail_size">131dp</dimen>
+    <dimen name="music_entity_title_view_size">@dimen/layout_match_parent</dimen>
+    <dimen name="onboarding_interstitial_promo_body_min_height">68dp</dimen>
+    <dimen name="onboarding_interstitial_promo_body_text_size">18sp</dimen>
+    <dimen name="onboarding_interstitial_promo_buttons_bottom_margin">42dp</dimen>
+    <dimen name="onboarding_interstitial_promo_max_content_width">500dp</dimen>
+    <dimen name="onboarding_interstitial_promo_scrollview_bottom_margin">100dp</dimen>
+    <dimen name="onboarding_interstitial_promo_title_text_size">20sp</dimen>
+    <dimen name="share_panel_peek_amount">36dp</dimen>
+    <dimen name="unlimited_header_description_margin">10dp</dimen>
+    <dimen name="unlimited_header_logo_height">44dp</dimen>
+    <dimen name="unlimited_header_logo_margin">10dp</dimen>
+    <dimen name="unlimited_header_logo_width">300dp</dimen>
+    <dimen name="unlimited_header_text_margin">10dp</dimen>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap
+            android:src="@drawable/yt_outline_experimental_chromecast_black_24"
+            android:tint="@color/ytm_icon_color_active"
+            android:alpha="0.3"/>
+    </item>
+    <item android:drawable="@drawable/yt_outline_chromecast_animate_frame_3_wave_delhi"/>
+</layer-list>

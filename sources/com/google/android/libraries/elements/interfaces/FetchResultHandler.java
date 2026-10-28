@@ -1,0 +1,89 @@
+package com.google.android.libraries.elements.interfaces;
+
+import defpackage.agp;
+import defpackage.nun;
+import io.grpc.Status;
+import java.lang.ref.WeakReference;
+import java.util.ArrayList;
+import java.util.concurrent.atomic.AtomicBoolean;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class FetchResultHandler {
+    private static final agp proxyMap = new agp(6);
+
+    private static CppProxy createProxy(long j) {
+        CppProxy existingProxy = getExistingProxy(j);
+        if (existingProxy != null) {
+            return existingProxy;
+        }
+        CppProxy cppProxy = new CppProxy(j, null);
+        proxyMap.d(j, new WeakReference(cppProxy));
+        return cppProxy;
+    }
+
+    private static CppProxy getExistingProxy(long j) {
+        agp agpVar = proxyMap;
+        WeakReference weakReference = (WeakReference) agpVar.a(j);
+        if (weakReference == null) {
+            return null;
+        }
+        CppProxy cppProxy = (CppProxy) weakReference.get();
+        if (cppProxy != null) {
+            return cppProxy;
+        }
+        agpVar.e(j);
+        return null;
+    }
+
+    public abstract Status onError(Status status);
+
+    public abstract Status onSuccess(ArrayList arrayList);
+
+    /* JADX INFO: compiled from: PG */
+    final class CppProxy extends FetchResultHandler {
+        static final /* synthetic */ boolean $assertionsDisabled = false;
+        private final AtomicBoolean destroyed;
+        private final long nativeRef;
+
+        private CppProxy(long j) {
+            this.destroyed = new AtomicBoolean(false);
+            if (j == 0) {
+                throw new RuntimeException("nativeRef is zero");
+            }
+            this.nativeRef = j;
+        }
+
+        public static native void nativeDestroy(long j);
+
+        private native Status native_onError(long j, Status status);
+
+        private native Status native_onSuccess(long j, ArrayList arrayList);
+
+        public void _djinni_private_destroy() {
+            if (this.destroyed.getAndSet(true)) {
+                return;
+            }
+            nativeDestroy(this.nativeRef);
+        }
+
+        protected void finalize() throws Throwable {
+            _djinni_private_destroy();
+            super.finalize();
+        }
+
+        @Override // com.google.android.libraries.elements.interfaces.FetchResultHandler
+        public Status onError(Status status) {
+            return native_onError(this.nativeRef, status);
+        }
+
+        @Override // com.google.android.libraries.elements.interfaces.FetchResultHandler
+        public Status onSuccess(ArrayList arrayList) {
+            return native_onSuccess(this.nativeRef, arrayList);
+        }
+
+        public /* synthetic */ CppProxy(long j, nun nunVar) {
+            this(j);
+        }
+    }
+}

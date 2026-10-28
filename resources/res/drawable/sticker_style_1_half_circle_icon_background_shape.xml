@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <size
+        android:height="@dimen/yt_sys_measurement_size_cozy"
+        android:width="@dimen/yt_sys_measurement_size_prominent"/>
+    <corners
+        android:topLeftRadius="@dimen/yt_sys_measurement_radius_expanded"
+        android:topRightRadius="@dimen/yt_sys_measurement_radius_expanded"/>
+</shape>

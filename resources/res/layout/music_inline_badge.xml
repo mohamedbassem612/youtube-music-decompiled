@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.rendering.ui.spec.typography.YouTubeAppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textColor="?attr/ytOverlayTextPrimary"
+    android:ellipsize="end"
+    android:gravity="center_vertical"
+    android:background="@drawable/music_inline_badge_background"
+    android:layout_width="wrap_content"
+    android:layout_height="?attr/yt_sys_measurement_size_cozy"
+    android:foreground="?attr/ytTouchFeedbackRectangle"
+    android:maxLines="1"
+    android:includeFontPadding="false"
+    android:drawablePadding="?attr/yt_sys_measurement_containment_gap_title_metadata_spacing"
+    android:paddingHorizontal="?attr/yt_sys_measurement_containment_gap_accessory_text_spacing_tiny"
+    android:paddingVertical="?attr/yt_sys_measurement_containment_inset_spacing_tiny"
+    android:clipToOutline="true"/>

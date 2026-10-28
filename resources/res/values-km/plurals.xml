@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="one">%d ម៉ោង</item>
+        <item quantity="other">%d ម៉ោង</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours_label">
+        <item quantity="one">ម៉ោង</item>
+        <item quantity="other">ម៉ោង</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="one">%d នាទី</item>
+        <item quantity="other">%d នាទី</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes_label">
+        <item quantity="one">នាទី</item>
+        <item quantity="other">នាទី</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="one">%d វិនាទី</item>
+        <item quantity="other">%d វិនាទី</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds_label">
+        <item quantity="one">វិនាទី</item>
+        <item quantity="other">វិនាទី</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="one">រំលង​ពាណិជ្ជកម្ម​នេះ​ក្នុង​រយៈពេល 1 វិនាទី​ទៀត</item>
+        <item quantity="other">រំលង​ពាណិជ្ជកម្ម​នេះ​ក្នុង​រយៈពេល %1$d វិនាទី​ទៀត</item>
+    </plurals>
+    <plurals name="auto_playlist_with_episode_count_item_subtitle">
+        <item quantity="one">បញ្ជីចម្រៀងស្វ័យប្រវត្តិ • 1 ភាគ</item>
+        <item quantity="other">បញ្ជីចម្រៀងស្វ័យប្រវត្តិ • %1$d ភាគ</item>
+    </plurals>
+    <plurals name="auto_playlist_with_size_item_subtitle">
+        <item quantity="one">កម្រងវីដេអូស្វ័យប្រវត្តិ • ចម្រៀង 1 បទ</item>
+        <item quantity="other">កម្រងវីដេអូស្វ័យប្រវត្តិ • ចម្រៀង %1$d បទ</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_down">
+        <item quantity="one">វីដេអូចុះបាន %d កន្លែង</item>
+        <item quantity="other">វីដេអូចុះបាន %1$d កន្លែង</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_up">
+        <item quantity="one">វីដេអូឡើងបាន %d កន្លែង</item>
+        <item quantity="other">វីដេអូឡើងបាន %1$d កន្លែង</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="one">%1$d ម៉ោង</item>
+        <item quantity="other">%1$d ម៉ោង</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="one">%s ម៉</item>
+        <item quantity="other">%s ម៉</item>
+    </plurals>
+    <plurals name="menu_option_hours">
+        <item quantity="one">%s ម៉ោង</item>
+        <item quantity="other">%s ម៉ោង</item>
+    </plurals>
+    <plurals name="menu_option_minutes">
+        <item quantity="one">%s នាទី</item>
+        <item quantity="other">%s នាទី</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="one">%s ន</item>
+        <item quantity="other">%s ន</item>
+    </plurals>
+    <plurals name="music_duration_minutes">
+        <item quantity="one">%1$d នាទី</item>
+        <item quantity="other">%1$d នាទី</item>
+    </plurals>
+    <plurals name="notification_offline_playlist_progress_track_count">
+        <item quantity="one">ភ្លេង %1$d នៃ 1 បទ</item>
+        <item quantity="other">ភ្លេង %1$d នៃ %2$d បទ</item>
+    </plurals>
+    <plurals name="offline_playlist_size">
+        <item quantity="one">ចម្រៀង 1 បទ</item>
+        <item quantity="other">ចម្រៀង %1$,d បទ</item>
+    </plurals>
+    <plurals name="offline_playlist_size_and_duration">
+        <item quantity="one">ចម្រៀង 1 បទ • %2$s</item>
+        <item quantity="other">ចម្រៀង %1$,d បទ • %2$s</item>
+    </plurals>
+    <plurals name="offline_podcast_playlist_size">
+        <item quantity="one">1 ភាគ</item>
+        <item quantity="other">%1$,d ភាគ</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_size_item_subtitle">
+        <item quantity="one">%1$s • ចម្រៀង 1 បទ</item>
+        <item quantity="other">%1$s • ចម្រៀង %2$d បទ</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_track_count_item_subtitle">
+        <item quantity="one">%1$s • ភ្លេង 1 បទ</item>
+        <item quantity="other">%1$s • ភ្លេង %2$d បទ</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_size_item_subtitle">
+        <item quantity="one">កម្រង​វីដេអូ • %1$s • ចម្រៀង 1 បទ</item>
+        <item quantity="other">កម្រង​វីដេអូ • %1$s • ចម្រៀង %2$d បទ</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_track_count_item_subtitle">
+        <item quantity="one">កម្រង​វីដេអូ • %1$s • ភ្លេង 1 បទ</item>
+        <item quantity="other">កម្រង​វីដេអូ • %1$s • ភ្លេង %2$d បទ</item>
+    </plurals>
+    <plurals name="podcast_episodes_count">
+        <item quantity="one">1 ភាគ</item>
+        <item quantity="other">%1$d ភាគ</item>
+    </plurals>
+    <plurals name="podcast_with_entity_type_and_creator_and_episode_count_item_subtitle">
+        <item quantity="one">ផតខាស • %1$s • 1 ភាគ</item>
+        <item quantity="other">ផតខាស • %1$s • %2$d ភាគ</item>
+    </plurals>
+    <plurals name="pref_enable_smart_download_recent_music_summary">
+        <item quantity="one">យើងនឹងទាញយករហូតដល់ %1$d បទនៃចម្រៀងដែលអ្នកបានចាក់ថ្មីៗ។</item>
+        <item quantity="other">យើងនឹងទាញយករហូតដល់ %1$d បទនៃចម្រៀងដែលអ្នកបានចាក់ថ្មីៗ។</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">You have a notification</item>
+        <item quantity="other">%1$d new notifications</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="one">%d វិនាទី</item>
+        <item quantity="other">%d វិនាទី</item>
+    </plurals>
+    <plurals name="smart_downloads_details_header_byline_explanation">
+        <item quantity="one">បទ​ចម្រៀង​ចំនួន %1$d បទដែល​បាន​ទាញ​យក​ដោយ​ឆ្លាតវៃ</item>
+        <item quantity="other">បទ​ចម្រៀង​ចំនួន %1$d បទដែល​បាន​ទាញ​យក​ដោយ​ឆ្លាត​វៃ</item>
+    </plurals>
+    <plurals name="smart_downloads_num_songs_estimated_space">
+        <item quantity="one">ចម្រៀង %1$d បទ (~%2$s)</item>
+        <item quantity="other">ចម្រៀង %1$d បទ (~%2$s)</item>
+    </plurals>
+    <plurals name="song_count">
+        <item quantity="one">ចម្រៀង​ 1 ​បទ</item>
+        <item quantity="other">ចម្រៀង %1$d បទ</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="one">សូម​ត្រឡប់មកវិញក្នុង​រយៈពេល 1 ថ្ងៃទៀត</item>
+        <item quantity="other">សូម​​ត្រឡប់​មក​វិញ​ក្នុងរយៈពេល %1$d ថ្ងៃទៀត</item>
+    </plurals>
+    <plurals name="track_count">
+        <item quantity="one">ភ្លេង 1 បទ</item>
+        <item quantity="other">ភ្លេង %1$d បទ</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="one">ចុចពីរដងខាងឆ្វេង ឬខាងស្តាំ ដើម្បីរំលង %d វិនាទី</item>
+        <item quantity="other">ចុចពីរដងខាងឆ្វេង ឬខាងស្តាំ ដើម្បីរំលង %d វិនាទី</item>
+    </plurals>
+</resources>

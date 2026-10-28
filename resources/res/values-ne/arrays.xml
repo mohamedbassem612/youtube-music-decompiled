@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>न्यून</item>
+        <item>सामान्य</item>
+        <item>उच्च</item>
+        <item>सधैँ उच्च</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>५ सेकेन्ड</item>
+        <item>१० सेकेन्ड</item>
+        <item>१५ सेकेन्ड</item>
+        <item>२० सेकेन्ड</item>
+        <item>३० सेकेन्ड</item>
+        <item>६० सेकेन्ड</item>
+    </array>
+</resources>

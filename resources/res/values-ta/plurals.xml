@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="one">%d மணிநேரம்</item>
+        <item quantity="other">%d மணிநேரம்</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours_label">
+        <item quantity="one">மணிநேரம்</item>
+        <item quantity="other">மணிநேரம்</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="one">%d நிமிடம்</item>
+        <item quantity="other">%d நிமிடங்கள்</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes_label">
+        <item quantity="one">நிமிடம்</item>
+        <item quantity="other">நிமிடங்கள்</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="one">%d வினாடி</item>
+        <item quantity="other">%d வினாடிகள்</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds_label">
+        <item quantity="one">வினாடி</item>
+        <item quantity="other">வினாடிகள்</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="one">1 விநாடியில் விளம்பரத்தைத் தவிர்க்கலாம்</item>
+        <item quantity="other">%1$d விநாடிகளில் விளம்பரத்தைத் தவிர்க்கலாம்</item>
+    </plurals>
+    <plurals name="auto_playlist_with_episode_count_item_subtitle">
+        <item quantity="one">தானியங்கு பிளேலிஸ்ட் • 1 எபிசோடு</item>
+        <item quantity="other">தானியங்கு பிளேலிஸ்ட் • %1$d எபிசோடுகள்</item>
+    </plurals>
+    <plurals name="auto_playlist_with_size_item_subtitle">
+        <item quantity="one">தானியங்கு பிளேலிஸ்ட் • 1 பாடல்</item>
+        <item quantity="other">தானியங்கு பிளேலிஸ்ட் • %1$d பாடல்கள்</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_down">
+        <item quantity="one">வீடியோ %d இடம் கீழே நகர்ந்துள்ளது</item>
+        <item quantity="other">வீடியோ %1$d இடங்கள் கீழே நகர்ந்துள்ளது</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_up">
+        <item quantity="one">வீடியோ %d இடம் மேலே நகர்ந்துள்ளது</item>
+        <item quantity="other">வீடியோ %1$d இடங்கள் மேலே நகர்ந்துள்ளது</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="one">%1$d மணிநேரம்</item>
+        <item quantity="other">%1$d மணிநேரம்</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="one">%s ம.நே</item>
+        <item quantity="other">%s ம.நே</item>
+    </plurals>
+    <plurals name="menu_option_hours">
+        <item quantity="one">%s மணிநேரம்</item>
+        <item quantity="other">%s மணிநேரம்</item>
+    </plurals>
+    <plurals name="menu_option_minutes">
+        <item quantity="one">%s நிமிடம்</item>
+        <item quantity="other">%s நிமிடங்கள்</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="one">%s நிமி</item>
+        <item quantity="other">%s நிமி</item>
+    </plurals>
+    <plurals name="music_duration_minutes">
+        <item quantity="one">%1$d நிமிடம்</item>
+        <item quantity="other">%1$d நிமிடங்கள்</item>
+    </plurals>
+    <plurals name="notification_offline_playlist_progress_track_count">
+        <item quantity="one">1ல் %1$dவது டிராக்</item>
+        <item quantity="other">%2$dல் %1$dவது டிராக்</item>
+    </plurals>
+    <plurals name="offline_playlist_size">
+        <item quantity="one">1 பாடல்</item>
+        <item quantity="other">%1$,d பாடல்கள்</item>
+    </plurals>
+    <plurals name="offline_playlist_size_and_duration">
+        <item quantity="one">1 பாடல் • %2$s</item>
+        <item quantity="other">%1$,d பாடல்கள் • %2$s</item>
+    </plurals>
+    <plurals name="offline_podcast_playlist_size">
+        <item quantity="one">1 எபிசோடு</item>
+        <item quantity="other">%1$,d எபிசோடுகள்</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_size_item_subtitle">
+        <item quantity="one">%1$s • 1 பாடல்</item>
+        <item quantity="other">%1$s • %2$d பாடல்கள்</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_track_count_item_subtitle">
+        <item quantity="one">%1$s • 1 டிராக்</item>
+        <item quantity="other">%1$s • %2$d டிராக்குகள்</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_size_item_subtitle">
+        <item quantity="one">பிளேலிஸ்ட் • %1$s • 1 பாடல்</item>
+        <item quantity="other">பிளேலிஸ்ட் • %1$s • %2$d பாடல்கள்</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_track_count_item_subtitle">
+        <item quantity="one">பிளேலிஸ்ட் • %1$s • 1 டிராக்</item>
+        <item quantity="other">பிளேலிஸ்ட் • %1$s • %2$d டிராக்குகள்</item>
+    </plurals>
+    <plurals name="podcast_episodes_count">
+        <item quantity="one">1 எபிசோடு</item>
+        <item quantity="other">%1$d எபிசோடுகள்</item>
+    </plurals>
+    <plurals name="podcast_with_entity_type_and_creator_and_episode_count_item_subtitle">
+        <item quantity="one">பாட்காஸ்ட் • %1$s • 1 எபிசோடு</item>
+        <item quantity="other">பாட்காஸ்ட் • %1$s • %2$d எபிசோடுகள்</item>
+    </plurals>
+    <plurals name="pref_enable_smart_download_recent_music_summary">
+        <item quantity="one">சமீபத்தில் பிளே செய்த பாடல்களில் இருந்து %1$d பாடல்கள் வரை நாங்கள் பதிவிறக்கம் செய்வோம்.</item>
+        <item quantity="other">சமீபத்தில் பிளே செய்த பாடல்களில் இருந்து %1$d பாடல்கள் வரை நாங்கள் பதிவிறக்கம் செய்வோம்.</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">You have a notification</item>
+        <item quantity="other">%1$d new notifications</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="one">%d விநாடி</item>
+        <item quantity="other">%d விநாடிகள்</item>
+    </plurals>
+    <plurals name="smart_downloads_details_header_byline_explanation">
+        <item quantity="one">ஸ்மார்ட் அம்சம் %1$d பாடலைப் பதிவிறக்கியுள்ளது</item>
+        <item quantity="other">ஸ்மார்ட் அம்சம் %1$d பாடல்களைப் பதிவிறக்கியுள்ளது</item>
+    </plurals>
+    <plurals name="smart_downloads_num_songs_estimated_space">
+        <item quantity="one">%1$d பாடல் (~%2$s)</item>
+        <item quantity="other">%1$d பாடல்கள் (~%2$s)</item>
+    </plurals>
+    <plurals name="song_count">
+        <item quantity="one">1 பாடல்</item>
+        <item quantity="other">%1$d பாடல்கள்</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="one">இந்த ஸ்டிக்கரை 1 நாள் கழித்துப் பயன்படுத்தலாம்</item>
+        <item quantity="other">இந்த ஸ்டிக்கரை %1$d நாட்கள் கழித்துப் பயன்படுத்தலாம்</item>
+    </plurals>
+    <plurals name="track_count">
+        <item quantity="one">1 டிராக்</item>
+        <item quantity="other">%1$d டிராக்குகள்</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="one">%d விநாடி முன்செல்ல வலதுபுறமும் பின்செல்ல இடதுபுறமும் இருமுறை தட்டவும்</item>
+        <item quantity="other">%d விநாடிகள் முன்செல்ல வலதுபுறமும் பின்செல்ல இடதுபுறமும் இருமுறை தட்டவும்</item>
+    </plurals>
+</resources>

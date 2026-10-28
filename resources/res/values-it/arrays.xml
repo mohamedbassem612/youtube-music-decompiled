@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>Bassa</item>
+        <item>Normale</item>
+        <item>Alta</item>
+        <item>Sempre alta</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>5 secondi</item>
+        <item>10 secondi</item>
+        <item>15 secondi</item>
+        <item>20 secondi</item>
+        <item>30 secondi</item>
+        <item>60 secondi</item>
+    </array>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/trim_silence_root"
+    android:background="?attr/selectableItemBackground"
+    android:padding="@dimen/item_large_spacing"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:textColor="?attr/ytTextPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trim_silence_label"
+            style="@style/TextAppearance.YouTubeMusic.Subhead2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trim_silence_description"/>
+    </LinearLayout>
+    <android.support.v7.widget.SwitchCompat
+        android:layout_gravity="end|center_vertical"
+        android:id="@+id/trim_silence_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

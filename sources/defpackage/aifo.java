@@ -1,0 +1,9 @@
+package defpackage;
+
+import java.util.regex.Pattern;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes4.dex */
+public final class aifo {
+    public static final Pattern a = Pattern.compile(String.format("^%s", "((http(s)?):)?\\/\\/((((lh[3-6](-tt|-d[a-g,y,z]|-testonly(-rollout)?)?\\.((ggpht)|(googleusercontent)|(google)|(sandbox\\.google)))|(lh7\\-(eu|us|qw|rt|xx)\\.((googleusercontent)|(google)))|((photos|testonly|work)\\.fife\\.usercontent\\.google)|([\\w\\-]+\\.fife\\.usercontent\\.google)|(([1-4]\\.bp\\.blogspot)|(bp[0-3]\\.blogger))|(ccp-lh\\.googleusercontent)|((((cp|ci|gp)[3-6])|(ap[1-2]))\\.(ggpht|googleusercontent))|(gm[1-4]\\.ggpht)|(play-(ti-)?lh\\.googleusercontent)|(gz[0-1]\\.googleusercontent)|(lh3\\-gm\\.google)|(((yt[3-4])|(sp[1-3]))\\.(ggpht|googleusercontent)))\\.com)|(drive\\.google\\.com\\/drive\\-(usercontent|viewer))|(dp[3-6]\\.googleusercontent\\.cn)|(lh[3-6]\\.(googleadsserving\\.cn|xn--9kr7l\\.com))|((photos|drive|contribution)\\-image\\-(dev|qa)(-us|-eu)?(-auth|-cookie)?\\.corp\\.google\\.com)|(photos\\-image\\-dev\\-dl\\-(auth|eu|us)\\.corp\\.google\\.com)|((dev|dev2|dev3|qa|qa2|qa3|qa-red|qa-blue|canary)[-.]lighthouse\\.sandbox\\.google\\.com\\/image)|(image\\-(dev|qa)\\-lighthouse(-auth)?\\.sandbox\\.google\\.com(\\/image)?)|(drive\\-qa\\.corp\\.google\\.com\\/drive\\-(usercontent|viewer))|(docs(\\-(dev|qa)\\.corp)?\\.google\\.com\\/(u\\/[0-9]+\\/)?(docs|sheets|slides|drawings|forms|videos|pictures|brands|email\\-layouts)\\-images\\-(rt|qw|xx))|(docs\\.sandbox\\.google\\.com\\/(u\\/[0-9]+\\/)?(docs|sheets|slides|drawings|forms|videos|pictures|brands)\\-images)|(sites\\.google\\.com\\/(u\\/[0-9]+\\/)?sites(v)?\\-images\\-(rt|qw))|(atari-green-test\\.corp\\.google\\.com\\/(u\\/[0-9]+\\/)?sites(v)?\\-images\\-(rt|qw))|(sites\\.sandbox\\.google\\.com\\/(u\\/[0-9]+\\/)?sites(v)?\\-images))\\/"));
+}

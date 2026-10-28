@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="one">%d sat</item>
+        <item quantity="few">%d sata</item>
+        <item quantity="other">%d sati</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours_label">
+        <item quantity="one">sat</item>
+        <item quantity="few">sata</item>
+        <item quantity="other">sati</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="one">%d minut</item>
+        <item quantity="few">%d minuta</item>
+        <item quantity="other">%d minuta</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes_label">
+        <item quantity="one">minut</item>
+        <item quantity="few">minuta</item>
+        <item quantity="other">minuta</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekunde</item>
+        <item quantity="other">%d sekundi</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds_label">
+        <item quantity="one">sekunda</item>
+        <item quantity="few">sekunde</item>
+        <item quantity="other">sekundi</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="one">Preskočite oglas za %1$d sek.</item>
+        <item quantity="few">Preskočite oglas za %1$d sek.</item>
+        <item quantity="other">Preskočite oglas za %1$d sek.</item>
+    </plurals>
+    <plurals name="auto_playlist_with_episode_count_item_subtitle">
+        <item quantity="one">Automatska plejlista • %1$d epizoda</item>
+        <item quantity="few">Automatska plejlista • %1$d epizode</item>
+        <item quantity="other">Automatska plejlista • %1$d epizoda</item>
+    </plurals>
+    <plurals name="auto_playlist_with_size_item_subtitle">
+        <item quantity="one">Automatska plejlista • %1$d pesma</item>
+        <item quantity="few">Automatska plejlista • %1$d pesme</item>
+        <item quantity="other">Automatska plejlista • %1$d pesama</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_down">
+        <item quantity="one">Video je pao za %1$d mesto</item>
+        <item quantity="few">Video je pao za %1$d mesta</item>
+        <item quantity="other">Video je pao za %1$d mesta</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_up">
+        <item quantity="one">Video se popeo za %1$d mesto</item>
+        <item quantity="few">Video se popeo za %1$d mesta</item>
+        <item quantity="other">Video se popeo za %1$d mesta</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="one">%1$d sat</item>
+        <item quantity="few">%1$d sata</item>
+        <item quantity="other">%1$d sati</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="one">%s s</item>
+        <item quantity="few">%s s</item>
+        <item quantity="other">%s s</item>
+    </plurals>
+    <plurals name="menu_option_hours">
+        <item quantity="one">%s sat</item>
+        <item quantity="few">%s sata</item>
+        <item quantity="other">%s sati</item>
+    </plurals>
+    <plurals name="menu_option_minutes">
+        <item quantity="one">%s minut</item>
+        <item quantity="few">%s minuta</item>
+        <item quantity="other">%s minuta</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="one">%s min</item>
+        <item quantity="few">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="music_duration_minutes">
+        <item quantity="one">%1$d minut</item>
+        <item quantity="few">%1$d minuta</item>
+        <item quantity="other">%1$d minuta</item>
+    </plurals>
+    <plurals name="notification_offline_playlist_progress_track_count">
+        <item quantity="one">%1$d od %2$d pesme/epizode</item>
+        <item quantity="few">%1$d od %2$d pesme/epizode</item>
+        <item quantity="other">%1$d od %2$d pesama/epizoda</item>
+    </plurals>
+    <plurals name="offline_playlist_size">
+        <item quantity="one">%1$,d pesma</item>
+        <item quantity="few">%1$,d pesme</item>
+        <item quantity="other">%1$,d pesama</item>
+    </plurals>
+    <plurals name="offline_playlist_size_and_duration">
+        <item quantity="one">%1$,d pesma • %2$s</item>
+        <item quantity="few">%1$,d pesme • %2$s</item>
+        <item quantity="other">%1$,d pesama • %2$s</item>
+    </plurals>
+    <plurals name="offline_podcast_playlist_size">
+        <item quantity="one">%1$,d epizoda</item>
+        <item quantity="few">%1$,d epizode</item>
+        <item quantity="other">%1$,d epizoda</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_size_item_subtitle">
+        <item quantity="one">%1$s • %2$d pesma</item>
+        <item quantity="few">%1$s • %2$d pesme</item>
+        <item quantity="other">%1$s • %2$d pesama</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_track_count_item_subtitle">
+        <item quantity="one">%1$s • %2$d pesma</item>
+        <item quantity="few">%1$s • %2$d pesme</item>
+        <item quantity="other">%1$s • %2$d pesama</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_size_item_subtitle">
+        <item quantity="one">Plejlista • %1$s • %2$d pesma</item>
+        <item quantity="few">Plejlista • %1$s • %2$d pesme</item>
+        <item quantity="other">Plejlista • %1$s • %2$d pesama</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_track_count_item_subtitle">
+        <item quantity="one">Plejlista • %1$s • %2$d pesma</item>
+        <item quantity="few">Plejlista • %1$s • %2$d pesme</item>
+        <item quantity="other">Plejlista • %1$s • %2$d pesama</item>
+    </plurals>
+    <plurals name="podcast_episodes_count">
+        <item quantity="one">%1$d epizoda</item>
+        <item quantity="few">%1$d epizode</item>
+        <item quantity="other">%1$d epizoda</item>
+    </plurals>
+    <plurals name="podcast_with_entity_type_and_creator_and_episode_count_item_subtitle">
+        <item quantity="one">Podkast • %1$s • %2$d epizoda</item>
+        <item quantity="few">Podkast • %1$s • %2$d epizode</item>
+        <item quantity="other">Podkast • %1$s • %2$d epizoda</item>
+    </plurals>
+    <plurals name="pref_enable_smart_download_recent_music_summary">
+        <item quantity="one">Preuzećemo do %1$d pesmu koju ste nedavno puštali.</item>
+        <item quantity="few">Preuzećemo do %1$d pesme koje ste nedavno puštali.</item>
+        <item quantity="other">Preuzećemo do %1$d pesama koje ste nedavno puštali.</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">You have a notification</item>
+        <item quantity="other">%1$d new notifications</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekunde</item>
+        <item quantity="other">%d sekundi</item>
+    </plurals>
+    <plurals name="smart_downloads_details_header_byline_explanation">
+        <item quantity="one">Pametno je preuzeta %1$d pesma</item>
+        <item quantity="few">Pametno su preuzete %1$d pesme</item>
+        <item quantity="other">Pametno je preuzeto %1$d pesama</item>
+    </plurals>
+    <plurals name="smart_downloads_num_songs_estimated_space">
+        <item quantity="one">%1$d pesma (oko %2$s)</item>
+        <item quantity="few">%1$d pesme (oko %2$s)</item>
+        <item quantity="other">%1$d pesama (oko %2$s)</item>
+    </plurals>
+    <plurals name="song_count">
+        <item quantity="one">%1$d pesma</item>
+        <item quantity="few">%1$d pesme</item>
+        <item quantity="other">%1$d pesama</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="one">Navratite opet za %1$d dan</item>
+        <item quantity="few">Navratite opet za %1$d dana</item>
+        <item quantity="other">Navratite opet za %1$d dana</item>
+    </plurals>
+    <plurals name="track_count">
+        <item quantity="one">%1$d snimak</item>
+        <item quantity="few">%1$d snimka</item>
+        <item quantity="other">%1$d snimaka</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="one">Dvaput dodirnite levo ili desno da biste preskočili %d sekundu</item>
+        <item quantity="few">Dvaput dodirnite levo ili desno da biste preskočili %d sekunde</item>
+        <item quantity="other">Dvaput dodirnite levo ili desno da biste preskočili %d sekundi</item>
+    </plurals>
+</resources>

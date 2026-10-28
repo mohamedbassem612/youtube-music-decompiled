@@ -1,0 +1,40 @@
+package defpackage;
+
+import android.app.Service;
+import com.google.android.libraries.youtube.mdx.mediaroute.providerservice.MdxMediaRouteProviderService;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes4.dex */
+public abstract class xuq extends dic implements aupi {
+    private volatile auoz e;
+    private final Object f = new Object();
+    private boolean g = false;
+
+    @Override // defpackage.aupi
+    /* JADX INFO: renamed from: g, reason: merged with bridge method [inline-methods] */
+    public final auoz componentManager() {
+        if (this.e == null) {
+            synchronized (this.f) {
+                if (this.e == null) {
+                    this.e = new auoz(this);
+                }
+            }
+        }
+        return this.e;
+    }
+
+    @Override // defpackage.auph
+    public final Object generatedComponent() {
+        return componentManager().generatedComponent();
+    }
+
+    @Override // android.app.Service
+    public void onCreate() {
+        if (!this.g) {
+            this.g = true;
+            Service service = ((gkf) generatedComponent()).a;
+            ((MdxMediaRouteProviderService) this).e = new ahub(aupm.b(aupt.a));
+        }
+        super.onCreate();
+    }
+}

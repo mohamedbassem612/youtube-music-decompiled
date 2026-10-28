@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/editor_tool_button_icon"
+        android:background="@drawable/reel_editor_tool_button_background"
+        android:clickable="false"
+        android:layout_width="@dimen/shorts_camera_compact_toolbar_button_size"
+        android:layout_height="@dimen/shorts_camera_compact_toolbar_button_size"
+        android:importantForAccessibility="no"/>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView
+        android:textAppearance="?attr/ytTextAppearanceBody2b"
+        android:textColor="?attr/ytOverlayTextPrimary"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/editor_tool_button_label"
+        android:paddingTop="@dimen/reel_edit_toolbar_button_text_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textAlignment="center"/>
+</LinearLayout>

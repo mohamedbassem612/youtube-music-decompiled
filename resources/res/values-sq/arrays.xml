@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>E ulët</item>
+        <item>Normale</item>
+        <item>E lartë</item>
+        <item>Gjithmonë e lartë</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>5 sekonda</item>
+        <item>10 sekonda</item>
+        <item>15 sekonda</item>
+        <item>20 sekonda</item>
+        <item>30 sekonda</item>
+        <item>60 sekonda</item>
+    </array>
+</resources>

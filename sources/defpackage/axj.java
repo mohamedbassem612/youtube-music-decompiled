@@ -1,0 +1,7 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes.dex */
+interface axj {
+    int a(CharSequence charSequence, int i, int i2);
+}

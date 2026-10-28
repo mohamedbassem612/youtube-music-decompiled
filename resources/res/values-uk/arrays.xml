@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>Низька</item>
+        <item>Звичайна</item>
+        <item>Висока</item>
+        <item>Завжди висока</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>5 секунд</item>
+        <item>10 секунд</item>
+        <item>15 секунд</item>
+        <item>20 секунд</item>
+        <item>30 секунд</item>
+        <item>60 секунд</item>
+    </array>
+</resources>

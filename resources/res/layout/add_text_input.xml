@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.libraries.youtube.creation.common.ui.RoundedCornersEditText
+        android:textSize="@dimen/add_text_default_text_size"
+        android:textColor="@color/yt_white1"
+        android:gravity="center"
+        android:id="@+id/add_text_input"
+        android:background="@null"
+        android:paddingLeft="@dimen/add_text_side_padding"
+        android:paddingRight="@dimen/add_text_side_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollHorizontally="false"
+        android:maxLength="@integer/add_text_max_chars"
+        android:shadowColor="@color/add_text_shadow_color"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:inputType="textNoSuggestions"
+        android:textIsSelectable="true"
+        android:layerType="software"
+        android:textCursorDrawable="@null"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+        android:layoutDirection="ltr"
+        android:hyphenationFrequency="none"/>
+</LinearLayout>

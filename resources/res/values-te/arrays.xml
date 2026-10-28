@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>తక్కువ</item>
+        <item>సాధారణం</item>
+        <item>అధికం</item>
+        <item>ఎల్లప్పుడూ అధికం</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>5 సెకన్లు</item>
+        <item>10 సెకన్లు</item>
+        <item>15 సెకన్లు</item>
+        <item>20 సెకన్లు</item>
+        <item>30 సెకన్లు</item>
+        <item>60 సెకన్లు</item>
+    </array>
+</resources>

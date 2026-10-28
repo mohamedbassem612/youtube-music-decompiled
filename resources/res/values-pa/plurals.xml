@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="one">%d ਘੰਟਾ</item>
+        <item quantity="other">%d ਘੰਟੇ</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours_label">
+        <item quantity="one">ਘੰਟਾ</item>
+        <item quantity="other">ਘੰਟੇ</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="one">%d ਮਿੰਟ</item>
+        <item quantity="other">%d ਮਿੰਟ</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes_label">
+        <item quantity="one">ਮਿੰਟ</item>
+        <item quantity="other">ਮਿੰਟ</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="one">%d ਸਕਿੰਟ</item>
+        <item quantity="other">%d ਸਕਿੰਟ</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds_label">
+        <item quantity="one">ਸਕਿੰਟ</item>
+        <item quantity="other">ਸਕਿੰਟ</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="one">%1$d ਸਕਿੰਟ ਵਿੱਚ ਵਿਗਿਆਪਨ ਛੱਡੋ</item>
+        <item quantity="other">%1$d ਸਕਿੰਟ ਵਿੱਚ ਵਿਗਿਆਪਨ ਛੱਡੋ</item>
+    </plurals>
+    <plurals name="auto_playlist_with_episode_count_item_subtitle">
+        <item quantity="one">ਸਵੈ-ਤਿਆਰ ਪਲੇਲਿਸਟ • %1$d ਐਪੀਸੋਡ</item>
+        <item quantity="other">ਸਵੈ-ਤਿਆਰ ਪਲੇਲਿਸਟ • %1$d ਐਪੀਸੋਡ</item>
+    </plurals>
+    <plurals name="auto_playlist_with_size_item_subtitle">
+        <item quantity="one">ਸਵੈਚਲਿਤ ਪਲੇਲਿਸਟ • %1$d ਗੀਤ</item>
+        <item quantity="other">ਸਵੈਚਲਿਤ ਪਲੇਲਿਸਟ • %1$d ਗੀਤ</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_down">
+        <item quantity="one">ਵੀਡੀਓ ਨੂੰ %1$d ਦਰਜਾ ਹੇਠਾਂ ਲਿਜਾਇਆ ਗਿਆ</item>
+        <item quantity="other">ਵੀਡੀਓ ਨੂੰ %1$d ਦਰਜੇ ਹੇਠਾਂ ਲਿਜਾਇਆ ਗਿਆ</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_up">
+        <item quantity="one">ਵੀਡੀਓ ਨੂੰ %1$d ਦਰਜਾ ਉੱਪਰ ਲਿਜਾਇਆ ਗਿਆ</item>
+        <item quantity="other">ਵੀਡੀਓ ਨੂੰ %1$d ਦਰਜੇ ਉੱਪਰ ਲਿਜਾਇਆ ਗਿਆ</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="one">%1$d ਘੰਟਾ</item>
+        <item quantity="other">%1$d ਘੰਟੇ</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="one">%s ਘੰਟਾ</item>
+        <item quantity="other">%s ਘੰਟੇ</item>
+    </plurals>
+    <plurals name="menu_option_hours">
+        <item quantity="one">%s ਘੰਟਾ</item>
+        <item quantity="other">%s ਘੰਟੇ</item>
+    </plurals>
+    <plurals name="menu_option_minutes">
+        <item quantity="one">%s ਮਿੰਟ</item>
+        <item quantity="other">%s ਮਿੰਟ</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="one">%s ਮਿੰਟ</item>
+        <item quantity="other">%s ਮਿੰਟ</item>
+    </plurals>
+    <plurals name="music_duration_minutes">
+        <item quantity="one">%1$d ਮਿੰਟ</item>
+        <item quantity="other">%1$d ਮਿੰਟ</item>
+    </plurals>
+    <plurals name="notification_offline_playlist_progress_track_count">
+        <item quantity="one">%2$d ਵਿੱਚੋਂ %1$d ਟਰੈਕ</item>
+        <item quantity="other">%2$d ਵਿੱਚੋਂ %1$d ਟਰੈਕ</item>
+    </plurals>
+    <plurals name="offline_playlist_size">
+        <item quantity="one">%1$,d ਗੀਤ</item>
+        <item quantity="other">%1$,d ਗੀਤ</item>
+    </plurals>
+    <plurals name="offline_playlist_size_and_duration">
+        <item quantity="one">%1$,d ਗੀਤ • %2$s</item>
+        <item quantity="other">%1$,d ਗੀਤ • %2$s</item>
+    </plurals>
+    <plurals name="offline_podcast_playlist_size">
+        <item quantity="one">%1$,d ਐਪੀਸੋਡ</item>
+        <item quantity="other">%1$,d ਐਪੀਸੋਡ</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_size_item_subtitle">
+        <item quantity="one">%1$s • %2$d ਗੀਤ</item>
+        <item quantity="other">%1$s • %2$d ਗੀਤ</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_track_count_item_subtitle">
+        <item quantity="one">%1$s • %2$d ਟਰੈਕ</item>
+        <item quantity="other">%1$s • %2$d ਟਰੈਕ</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_size_item_subtitle">
+        <item quantity="one">ਪਲੇਲਿਸਟ • %1$s • %2$d ਗੀਤ</item>
+        <item quantity="other">ਪਲੇਲਿਸਟ • %1$s • %2$d ਗੀਤ</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_track_count_item_subtitle">
+        <item quantity="one">ਪਲੇਲਿਸਟ • %1$s • %2$d ਟਰੈਕ</item>
+        <item quantity="other">ਪਲੇਲਿਸਟ • %1$s • %2$d ਟਰੈਕ</item>
+    </plurals>
+    <plurals name="podcast_episodes_count">
+        <item quantity="one">%1$d ਐਪੀਸੋਡ</item>
+        <item quantity="other">%1$d ਐਪੀਸੋਡ</item>
+    </plurals>
+    <plurals name="podcast_with_entity_type_and_creator_and_episode_count_item_subtitle">
+        <item quantity="one">ਪੌਡਕਾਸਟ • %1$s • %2$d ਐਪੀਸੋਡ</item>
+        <item quantity="other">ਪੌਡਕਾਸਟ • %1$s • %2$d ਐਪੀਸੋਡ</item>
+    </plurals>
+    <plurals name="pref_enable_smart_download_recent_music_summary">
+        <item quantity="one">ਅਸੀਂ ਤੁਹਾਡੇ ਹਾਲ ਹੀ ਵਿੱਚ ਚਲਾਏ ਗਏ ਗੀਤਾਂ ਵਿੱਚੋਂ %1$d ਤੱਕ ਡਾਊਨਲੋਡ ਕਰਾਂਗੇ।</item>
+        <item quantity="other">ਅਸੀਂ ਤੁਹਾਡੇ ਹਾਲ ਹੀ ਵਿੱਚ ਚਲਾਏ ਗਏ ਗੀਤਾਂ ਵਿੱਚੋਂ %1$d ਤੱਕ ਡਾਊਨਲੋਡ ਕਰਾਂਗੇ।</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">You have a notification</item>
+        <item quantity="other">%1$d new notifications</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="one">%d ਸਕਿੰਟ</item>
+        <item quantity="other">%d ਸਕਿੰਟ</item>
+    </plurals>
+    <plurals name="smart_downloads_details_header_byline_explanation">
+        <item quantity="one">%1$d ਗੀਤ ਸਮਾਰਟ ਡਾਊਨਲੋਡ ਕੀਤਾ ਗਿਆ</item>
+        <item quantity="other">%1$d ਗੀਤ ਸਮਾਰਟ ਡਾਊਨਲੋਡ ਕੀਤੇ ਗਏ</item>
+    </plurals>
+    <plurals name="smart_downloads_num_songs_estimated_space">
+        <item quantity="one">%1$d ਗੀਤ (~%2$s)</item>
+        <item quantity="other">%1$d ਗੀਤ (~%2$s)</item>
+    </plurals>
+    <plurals name="song_count">
+        <item quantity="one">%1$d ਗੀਤ</item>
+        <item quantity="other">%1$d ਗੀਤ</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="one">%1$d ਦਿਨ ਬਾਅਦ ਕੋਸ਼ਿਸ਼ ਕਰੋ</item>
+        <item quantity="other">%1$d ਦਿਨਾਂ ਬਾਅਦ ਕੋਸ਼ਿਸ਼ ਕਰੋ</item>
+    </plurals>
+    <plurals name="track_count">
+        <item quantity="one">%1$d ਟਰੈਕ</item>
+        <item quantity="other">%1$d ਟਰੈਕ</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="one">%d ਸਕਿੰਟ ਅੱਗੇ ਜਾਂ ਪਿੱਛੇ ਜਾਣ ਲਈ ਖੱਬੇ ਜਾਂ ਸੱਜੇ ਡਬਲ ਟੈਪ ਕਰੋ</item>
+        <item quantity="other">%d ਸਕਿੰਟ ਅੱਗੇ ਜਾਂ ਪਿੱਛੇ ਜਾਣ ਲਈ ਖੱਬੇ ਜਾਂ ਸੱਜੇ ਡਬਲ ਟੈਪ ਕਰੋ</item>
+    </plurals>
+</resources>

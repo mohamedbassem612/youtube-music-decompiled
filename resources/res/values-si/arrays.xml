@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>අඩු</item>
+        <item>සාමාන්‍ය</item>
+        <item>ඉහළ</item>
+        <item>සැමවිටම ඉහළ</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>තත්පර 5</item>
+        <item>තත්පර 10</item>
+        <item>තත්පර 15</item>
+        <item>තත්පර 20</item>
+        <item>තත්පර 30</item>
+        <item>තත්පර 60</item>
+    </array>
+</resources>

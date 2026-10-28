@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>Chini</item>
+        <item>Kawaida</item>
+        <item>Juu</item>
+        <item>Ubora wa Juu Kila Wakati</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>Sekunde 5</item>
+        <item>Sekunde 10</item>
+        <item>Sekunde 15</item>
+        <item>Sekunde 20</item>
+        <item>Sekunde 30</item>
+        <item>Sekunde 60</item>
+    </array>
+</resources>

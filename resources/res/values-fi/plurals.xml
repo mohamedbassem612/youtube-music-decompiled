@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="one">%d tunti</item>
+        <item quantity="other">%d tuntia</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours_label">
+        <item quantity="one">tunti</item>
+        <item quantity="other">tuntia</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="one">%d minuutti</item>
+        <item quantity="other">%d minuuttia</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes_label">
+        <item quantity="one">minuutti</item>
+        <item quantity="other">minuuttia</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="one">%d sekunti</item>
+        <item quantity="other">%d sekuntia</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds_label">
+        <item quantity="one">sekunti</item>
+        <item quantity="other">sekuntia</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="one">Ohita mainos 1 sekunnin kuluttua</item>
+        <item quantity="other">Ohita mainos %1$d sekunnin kuluttua</item>
+    </plurals>
+    <plurals name="auto_playlist_with_episode_count_item_subtitle">
+        <item quantity="one">Automaattinen soittolista • 1 jakso</item>
+        <item quantity="other">Automaattinen soittolista • %1$d jaksoa</item>
+    </plurals>
+    <plurals name="auto_playlist_with_size_item_subtitle">
+        <item quantity="one">Automaattinen soittolista • 1 kappale</item>
+        <item quantity="other">Automaattinen soittolista • %1$d kappaletta</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_down">
+        <item quantity="one">Video siirtynyt %d pykälän alaspäin</item>
+        <item quantity="other">Video siirtynyt %1$d pykälää alaspäin</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_up">
+        <item quantity="one">Video siirtynyt %d pykälän ylöspäin</item>
+        <item quantity="other">Video siirtynyt %1$d pykälää ylöspäin</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="one">%1$d tunti</item>
+        <item quantity="other">%1$d tuntia</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="one">%s h</item>
+        <item quantity="other">%s h</item>
+    </plurals>
+    <plurals name="menu_option_hours">
+        <item quantity="one">%s tunti</item>
+        <item quantity="other">%s tuntia</item>
+    </plurals>
+    <plurals name="menu_option_minutes">
+        <item quantity="one">%s minuutti</item>
+        <item quantity="other">%s minuuttia</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="one">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="music_duration_minutes">
+        <item quantity="one">%1$d minuutti</item>
+        <item quantity="other">%1$d minuuttia</item>
+    </plurals>
+    <plurals name="notification_offline_playlist_progress_track_count">
+        <item quantity="one">%1$d/1 kappale</item>
+        <item quantity="other">%1$d/%2$d kappaletta</item>
+    </plurals>
+    <plurals name="offline_playlist_size">
+        <item quantity="one">1 kappale</item>
+        <item quantity="other">%1$,d kappaletta</item>
+    </plurals>
+    <plurals name="offline_playlist_size_and_duration">
+        <item quantity="one">1 kappale • %2$s</item>
+        <item quantity="other">%1$,d kappaletta • %2$s</item>
+    </plurals>
+    <plurals name="offline_podcast_playlist_size">
+        <item quantity="one">1 jakso</item>
+        <item quantity="other">%1$,d jaksoa</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_size_item_subtitle">
+        <item quantity="one">%1$s • 1 kappale</item>
+        <item quantity="other">%1$s • %2$d kappaletta</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_track_count_item_subtitle">
+        <item quantity="one">%1$s • 1 kappale</item>
+        <item quantity="other">%1$s • %2$d kappaletta</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_size_item_subtitle">
+        <item quantity="one">Soittolista • %1$s • 1 kappale</item>
+        <item quantity="other">Soittolista • %1$s • %2$d kappaletta</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_track_count_item_subtitle">
+        <item quantity="one">Soittolista • %1$s • 1 kappale</item>
+        <item quantity="other">Soittolista • %1$s • %2$d kappaletta</item>
+    </plurals>
+    <plurals name="podcast_episodes_count">
+        <item quantity="one">1 jakso</item>
+        <item quantity="other">%1$d jaksoa</item>
+    </plurals>
+    <plurals name="podcast_with_entity_type_and_creator_and_episode_count_item_subtitle">
+        <item quantity="one">Podcast • %1$s • 1 jakso</item>
+        <item quantity="other">Podcast • %1$s • %2$d jaksoa</item>
+    </plurals>
+    <plurals name="pref_enable_smart_download_recent_music_summary">
+        <item quantity="one">Lataamme enintään %1$d:n viimeksi kuunnellun kappaleen.</item>
+        <item quantity="other">Lataamme enintään %1$d viimeksi kuunneltua kappaletta.</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">Sinulla on ilmoitus</item>
+        <item quantity="other">%1$d uutta ilmoitusta</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="one">%d sekunti</item>
+        <item quantity="other">%d sekuntia</item>
+    </plurals>
+    <plurals name="smart_downloads_details_header_byline_explanation">
+        <item quantity="one">%1$d kappale älyladattiin</item>
+        <item quantity="other">%1$d kappaletta älyladattiin</item>
+    </plurals>
+    <plurals name="smart_downloads_num_songs_estimated_space">
+        <item quantity="one">%1$d kappale (~%2$s)</item>
+        <item quantity="other">%1$d kappaletta (~%2$s)</item>
+    </plurals>
+    <plurals name="song_count">
+        <item quantity="one">1 kappale</item>
+        <item quantity="other">%1$d kappaletta</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="one">Yritä uudelleen 1 päivän päästä</item>
+        <item quantity="other">Yritä uudelleen %1$d päivän päästä</item>
+    </plurals>
+    <plurals name="track_count">
+        <item quantity="one">1 kappale</item>
+        <item quantity="other">%1$d kappaletta</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="one">Siirry %d sekunti napauttamalla vasemmalta tai oikealta</item>
+        <item quantity="other">Siirry %d sekuntia napauttamalla vasemmalta tai oikealta</item>
+    </plurals>
+</resources>

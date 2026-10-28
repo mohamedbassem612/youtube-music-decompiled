@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/social_suggestions_container"
+    android:background="?attr/ytRaisedBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    yt:layout_behavior="com.google.android.libraries.youtube.metadataeditor.elements.suggest.SuggestBottomSheetBehavior">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/social_suggestions_holder"
+        android:focusable="true"
+        android:fitsSystemWindows="true"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_gravity="top"
+            android:id="@+id/user_mention_suggestions_top_bar"
+            android:background="?attr/yt10PercentLayer"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/yt_sys_measurement_size_hairline"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/suggestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <com.google.android.libraries.youtube.metadataeditor.elements.OverlayView
+        android:id="@+id/social_suggestions_overlay"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>কম</item>
+        <item>সাধারণ</item>
+        <item>বেশি</item>
+        <item>সবসময় বেশি</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>৫ সেকেন্ড</item>
+        <item>১০ সেকেন্ড</item>
+        <item>১৫ সেকেন্ড</item>
+        <item>২০ সেকেন্ড</item>
+        <item>৩০ সেকেন্ড</item>
+        <item>৬০ সেকেন্ড</item>
+    </array>
+</resources>

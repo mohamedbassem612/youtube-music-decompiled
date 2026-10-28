@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>נמוכה</item>
+        <item>רגילה</item>
+        <item>גבוהה</item>
+        <item>תמיד גבוהה</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>5 שניות</item>
+        <item>10 שניות</item>
+        <item>15 שניות</item>
+        <item>20 שניות</item>
+        <item>30 שניות</item>
+        <item>60 שניות</item>
+    </array>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>Lítil</item>
+        <item>Venjuleg</item>
+        <item>Mikil</item>
+        <item>Alltaf mikil</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>5 sekúndur</item>
+        <item>10 sekúndur</item>
+        <item>15 sekúndur</item>
+        <item>20 sekúndur</item>
+        <item>30 sekúndur</item>
+        <item>60 sekúndur</item>
+    </array>
+</resources>

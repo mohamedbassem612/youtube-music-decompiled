@@ -1,0 +1,51 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes5.dex */
+public final class aqyf extends aihn implements aiis {
+    public static final aqyf a;
+    private int b;
+    private alay c;
+    private alay d;
+    private alay e;
+    private alay f;
+    private aoam g;
+    private ajwo h;
+    private byte i = 2;
+
+    static {
+        aqyf aqyfVar = new aqyf();
+        a = aqyfVar;
+        aihn.registerDefaultInstance(aqyf.class, aqyfVar);
+    }
+
+    private aqyf() {
+        emptyProtobufList();
+        emptyProtobufList();
+        emptyProtobufList();
+        aigj aigjVar = aigj.d;
+    }
+
+    @Override // defpackage.aihn
+    protected final Object dynamicMethod(aihm aihmVar, Object obj, Object obj2) {
+        switch (aihmVar.ordinal()) {
+            case 0:
+                return Byte.valueOf(this.i);
+            case 1:
+                this.i = obj == null ? (byte) 0 : (byte) 1;
+                return null;
+            case 2:
+                return newMessageInfo(a, "\u0001\u0006\u0000\u0001\u0001\r\u0006\u0000\u0000\u0006\u0001ᐉ\u0000\u0003ᐉ\u0003\u0005ᐉ\u0007\bᐉ\u0004\nᐉ\u0001\rᐉ\u0006", new Object[]{"b", "c", "e", "h", "f", "d", "g"});
+            case 3:
+                return new aqyf();
+            case 4:
+                return new aihf(a);
+            case 5:
+                return a;
+            case 6:
+                return aihn.getParserForClass(aqyf.class);
+            default:
+                return null;
+        }
+    }
+}

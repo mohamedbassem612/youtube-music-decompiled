@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>Laag</item>
+        <item>Normaal</item>
+        <item>Hoog</item>
+        <item>Altyd hoog</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>5 sekondes</item>
+        <item>10 sekondes</item>
+        <item>15 sekondes</item>
+        <item>20 sekondes</item>
+        <item>30 sekondes</item>
+        <item>60 sekondes</item>
+    </array>
+</resources>

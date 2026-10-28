@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="zero">%d stundu</item>
+        <item quantity="one">%d stunda</item>
+        <item quantity="other">%d stundas</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours_label">
+        <item quantity="zero">stundu</item>
+        <item quantity="one">stunda</item>
+        <item quantity="other">stundas</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="zero">%d minūšu</item>
+        <item quantity="one">%d minūte</item>
+        <item quantity="other">%d minūtes</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes_label">
+        <item quantity="zero">minūšu</item>
+        <item quantity="one">minūte</item>
+        <item quantity="other">minūtes</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="zero">%d sekunžu</item>
+        <item quantity="one">%d sekunde</item>
+        <item quantity="other">%d sekundes</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds_label">
+        <item quantity="zero">sekunžu</item>
+        <item quantity="one">sekunde</item>
+        <item quantity="other">sekundes</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="zero">Izlaist reklāmu pēc %1$d sekundēm</item>
+        <item quantity="one">Izlaist reklāmu pēc %1$d sekundes</item>
+        <item quantity="other">Izlaist reklāmu pēc %1$d sekundēm</item>
+    </plurals>
+    <plurals name="auto_playlist_with_episode_count_item_subtitle">
+        <item quantity="zero">Automātisks atskaņošanas saraksts • 0 sēriju</item>
+        <item quantity="one">Automātisks atskaņošanas saraksts • %1$d sērija</item>
+        <item quantity="other">Automātisks atskaņošanas saraksts • %1$d sērijas</item>
+    </plurals>
+    <plurals name="auto_playlist_with_size_item_subtitle">
+        <item quantity="zero">Automātisks atskaņošanas saraksts • 0 dziesmu</item>
+        <item quantity="one">Automātisks atskaņošanas saraksts • %1$d dziesma</item>
+        <item quantity="other">Automātisks atskaņošanas saraksts • %1$d dziesmas</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_down">
+        <item quantity="zero">Videoklips pārvietojās lejup par %1$d vietām</item>
+        <item quantity="one">Videoklips pārvietojās lejup par %1$d vietu</item>
+        <item quantity="other">Videoklips pārvietojās lejup par %1$d vietām</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_up">
+        <item quantity="zero">Videoklips pārvietojās augšup par %1$d vietām</item>
+        <item quantity="one">Videoklips pārvietojās augšup par %1$d vietu</item>
+        <item quantity="other">Videoklips pārvietojās augšup par %1$d vietām</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="zero">%1$d stundu</item>
+        <item quantity="one">%1$d stunda</item>
+        <item quantity="other">%1$d stundas</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="zero">%s h</item>
+        <item quantity="one">%s h</item>
+        <item quantity="other">%s h</item>
+    </plurals>
+    <plurals name="menu_option_hours">
+        <item quantity="zero">%s stundu</item>
+        <item quantity="one">%s stunda</item>
+        <item quantity="other">%s stundas</item>
+    </plurals>
+    <plurals name="menu_option_minutes">
+        <item quantity="zero">%s minūšu</item>
+        <item quantity="one">%s minūte</item>
+        <item quantity="other">%s minūtes</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="zero">%s min</item>
+        <item quantity="one">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="music_duration_minutes">
+        <item quantity="zero">%1$d minūtes</item>
+        <item quantity="one">%1$d minūte</item>
+        <item quantity="other">%1$d minūtes</item>
+    </plurals>
+    <plurals name="notification_offline_playlist_progress_track_count">
+        <item quantity="zero">0 no 0 ierakstiem</item>
+        <item quantity="one">%1$d no %2$d ieraksta</item>
+        <item quantity="other">%1$d no %2$d ierakstiem</item>
+    </plurals>
+    <plurals name="offline_playlist_size">
+        <item quantity="zero">%1$,d dziesmu</item>
+        <item quantity="one">%1$,d dziesma</item>
+        <item quantity="other">%1$,d dziesmas</item>
+    </plurals>
+    <plurals name="offline_playlist_size_and_duration">
+        <item quantity="zero">%1$,d dziesmu • %2$s</item>
+        <item quantity="one">%1$,d dziesma • %2$s</item>
+        <item quantity="other">%1$,d dziesmas • %2$s</item>
+    </plurals>
+    <plurals name="offline_podcast_playlist_size">
+        <item quantity="zero">%1$,d sērijas</item>
+        <item quantity="one">%1$,d sērija</item>
+        <item quantity="other">%1$,d sērijas</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_size_item_subtitle">
+        <item quantity="zero">%1$s • 0 dziesmu</item>
+        <item quantity="one">%1$s • %2$d dziesma</item>
+        <item quantity="other">%1$s • %2$d dziesmas</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_track_count_item_subtitle">
+        <item quantity="zero">%1$s • 0 ierakstu</item>
+        <item quantity="one">%1$s • %2$d ieraksts</item>
+        <item quantity="other">%1$s • %2$d ieraksti</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_size_item_subtitle">
+        <item quantity="zero">Atskaņošanas saraksts • %1$s • 0 dziesmu</item>
+        <item quantity="one">Atskaņošanas saraksts • %1$s • %2$d dziesma</item>
+        <item quantity="other">Atskaņošanas saraksts • %1$s • %2$d dziesmas</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_track_count_item_subtitle">
+        <item quantity="zero">Atskaņošanas saraksts • %1$s • 0 ierakstu</item>
+        <item quantity="one">Atskaņošanas saraksts • %1$s • %2$d ieraksts</item>
+        <item quantity="other">Atskaņošanas saraksts • %1$s • %2$d ieraksti</item>
+    </plurals>
+    <plurals name="podcast_episodes_count">
+        <item quantity="zero">0 sēriju</item>
+        <item quantity="one">%1$d sērija</item>
+        <item quantity="other">%1$d sērijas</item>
+    </plurals>
+    <plurals name="podcast_with_entity_type_and_creator_and_episode_count_item_subtitle">
+        <item quantity="zero">Raidieraksts • %1$s • 0 sēriju</item>
+        <item quantity="one">Raidieraksts • %1$s • %2$d sērija</item>
+        <item quantity="other">Raidieraksts • %1$s • %2$d sērijas</item>
+    </plurals>
+    <plurals name="pref_enable_smart_download_recent_music_summary">
+        <item quantity="zero">Tiks lejupielādētas jūsu nesen atskaņotās dziesmas.</item>
+        <item quantity="one">Mēs lejupielādēsim ne vairāk kā %1$d nesen atskaņoto dziesmu.</item>
+        <item quantity="other">Mēs lejupielādēsim ne vairāk kā %1$d nesen atskaņotās dziesmas.</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">You have a notification</item>
+        <item quantity="other">%1$d new notifications</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="zero">%d sekundes</item>
+        <item quantity="one">%d sekunde</item>
+        <item quantity="other">%d sekundes</item>
+    </plurals>
+    <plurals name="smart_downloads_details_header_byline_explanation">
+        <item quantity="zero">Viedi lejupielādētas 0 dziesmu</item>
+        <item quantity="one">Viedi lejupielādēta %1$d dziesma</item>
+        <item quantity="other">Viedi lejupielādētas %1$d dziesmas</item>
+    </plurals>
+    <plurals name="smart_downloads_num_songs_estimated_space">
+        <item quantity="zero">%1$d dziesmu (~%2$s)</item>
+        <item quantity="one">%1$d dziesma (~%2$s)</item>
+        <item quantity="other">%1$d dziesmas (~%2$s)</item>
+    </plurals>
+    <plurals name="song_count">
+        <item quantity="zero">0 dziesmu</item>
+        <item quantity="one">%1$d dziesma</item>
+        <item quantity="other">%1$d dziesmas</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="zero">Atgriezieties pēc %1$d dienām</item>
+        <item quantity="one">Atgriezieties pēc %1$d dienas</item>
+        <item quantity="other">Atgriezieties pēc %1$d dienām</item>
+    </plurals>
+    <plurals name="track_count">
+        <item quantity="zero">0 ierakstu</item>
+        <item quantity="one">%1$d ieraksts</item>
+        <item quantity="other">%1$d ieraksti</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="zero">Lai izlaistu %d sekundes, veiciet dubultskārienu pa kreisi vai pa labi</item>
+        <item quantity="one">Lai izlaistu %d sekundi, veiciet dubultskārienu pa kreisi vai pa labi</item>
+        <item quantity="other">Lai izlaistu %d sekundes, veiciet dubultskārienu pa kreisi vai pa labi</item>
+    </plurals>
+</resources>

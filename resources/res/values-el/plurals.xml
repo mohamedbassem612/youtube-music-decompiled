@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="one">%d ώρα</item>
+        <item quantity="other">%d ώρες</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours_label">
+        <item quantity="one">ώρα</item>
+        <item quantity="other">ώρες</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="one">%d λεπτό</item>
+        <item quantity="other">%d λεπτά</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes_label">
+        <item quantity="one">λεπτό</item>
+        <item quantity="other">λεπτά</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="one">%d δευτερόλεπτο</item>
+        <item quantity="other">%d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds_label">
+        <item quantity="one">δευτερόλεπτο</item>
+        <item quantity="other">δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="one">Παράλειψη διαφήμισης σε 1 δευτερόλεπτο</item>
+        <item quantity="other">Παράλειψη διαφήμισης σε %1$d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="auto_playlist_with_episode_count_item_subtitle">
+        <item quantity="one">Αυτόματη λίστα αναπαραγωγής • 1 επεισόδιο</item>
+        <item quantity="other">Αυτόματη λίστα αναπαραγωγής • %1$d επεισόδια</item>
+    </plurals>
+    <plurals name="auto_playlist_with_size_item_subtitle">
+        <item quantity="one">Αυτόματη λίστα αναπαραγωγής • 1 τραγούδι</item>
+        <item quantity="other">Αυτόματη λίστα αναπαραγωγής • %1$d τραγούδια</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_down">
+        <item quantity="one">Το βίντεο κατέβηκε %d θέση</item>
+        <item quantity="other">Το βίντεο κατέβηκε %1$d θέσεις</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_up">
+        <item quantity="one">Το βίντεο ανέβηκε %d θέση</item>
+        <item quantity="other">Το βίντεο ανέβηκε %1$d θέσεις</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="one">%1$d ώρα</item>
+        <item quantity="other">%1$d ώρες</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="one">%s ώρα</item>
+        <item quantity="other">%s ώρες</item>
+    </plurals>
+    <plurals name="menu_option_hours">
+        <item quantity="one">%s ώρα</item>
+        <item quantity="other">%s ώρες</item>
+    </plurals>
+    <plurals name="menu_option_minutes">
+        <item quantity="one">%s λεπτό</item>
+        <item quantity="other">%s λεπτά</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="one">%s λ.</item>
+        <item quantity="other">%s λ.</item>
+    </plurals>
+    <plurals name="music_duration_minutes">
+        <item quantity="one">%1$d λεπτό</item>
+        <item quantity="other">%1$d λεπτά</item>
+    </plurals>
+    <plurals name="notification_offline_playlist_progress_track_count">
+        <item quantity="one">%1$d από 1 κομμάτι</item>
+        <item quantity="other">%1$d από %2$d κομμάτια</item>
+    </plurals>
+    <plurals name="offline_playlist_size">
+        <item quantity="one">1 τραγούδι</item>
+        <item quantity="other">%1$,d τραγούδια</item>
+    </plurals>
+    <plurals name="offline_playlist_size_and_duration">
+        <item quantity="one">1 τραγούδι • %2$s</item>
+        <item quantity="other">%1$,d τραγούδια • %2$s</item>
+    </plurals>
+    <plurals name="offline_podcast_playlist_size">
+        <item quantity="one">1 επεισόδιο</item>
+        <item quantity="other">%1$,d επεισόδια</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_size_item_subtitle">
+        <item quantity="one">%1$s • 1 τραγούδι</item>
+        <item quantity="other">%1$s • %2$d τραγούδια</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_track_count_item_subtitle">
+        <item quantity="one">%1$s • 1 κομμάτι</item>
+        <item quantity="other">%1$s • %2$d κομμάτια</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_size_item_subtitle">
+        <item quantity="one">Λίστα αναπαραγωγής • %1$s • 1 τραγούδι</item>
+        <item quantity="other">Λίστα αναπαραγωγής • %1$s • %2$d τραγούδια</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_track_count_item_subtitle">
+        <item quantity="one">Λίστα αναπαραγωγής • %1$s • 1 κομμάτι</item>
+        <item quantity="other">Λίστα αναπαραγωγής • %1$s • %2$d κομμάτια</item>
+    </plurals>
+    <plurals name="podcast_episodes_count">
+        <item quantity="one">1 επεισόδιο</item>
+        <item quantity="other">%1$d επεισόδια</item>
+    </plurals>
+    <plurals name="podcast_with_entity_type_and_creator_and_episode_count_item_subtitle">
+        <item quantity="one">Podcast • %1$s • 1 επεισόδιο</item>
+        <item quantity="other">Podcast • %1$s • %2$d επεισόδια</item>
+    </plurals>
+    <plurals name="pref_enable_smart_download_recent_music_summary">
+        <item quantity="one">Θα κατεβάσουμε έως %1$d από τα τραγούδια που ακούσατε πρόσφατα.</item>
+        <item quantity="other">Θα κατεβάσουμε έως %1$d από τα τραγούδια που ακούσατε πρόσφατα.</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">Έχετε μια ειδοποίηση</item>
+        <item quantity="other">%1$d νέες ειδοποιήσεις</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="one">%d δευτερόλεπτο</item>
+        <item quantity="other">%d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="smart_downloads_details_header_byline_explanation">
+        <item quantity="one">%1$d τραγούδι αποθηκεύτηκε με έξυπνη λήψη</item>
+        <item quantity="other">%1$d τραγούδια αποθηκεύτηκαν με έξυπνη λήψη</item>
+    </plurals>
+    <plurals name="smart_downloads_num_songs_estimated_space">
+        <item quantity="one">%1$d κομμάτι (~%2$s)</item>
+        <item quantity="other">%1$d κομμάτια (~%2$s)</item>
+    </plurals>
+    <plurals name="song_count">
+        <item quantity="one">1 τραγούδι</item>
+        <item quantity="other">%1$d τραγούδια</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="one">Επιστρέψτε σε 1 ημέρα</item>
+        <item quantity="other">Επιστρέψτε σε %1$d ημέρες</item>
+    </plurals>
+    <plurals name="track_count">
+        <item quantity="one">1 κομμάτι</item>
+        <item quantity="other">%1$d κομμάτια</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="one">Με διπλό πάτημα αριστερά ή δεξιά παρακάμπτετε %d δευτερόλεπτο</item>
+        <item quantity="other">Με διπλό πάτημα αριστερά ή δεξιά παρακάμπτετε %d δευτερόλεπτα</item>
+    </plurals>
+</resources>

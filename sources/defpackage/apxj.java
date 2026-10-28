@@ -1,0 +1,50 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes4.dex */
+public final class apxj extends aihn implements aiis {
+    public static final apxj a;
+    public static final aihl b;
+    public int c;
+    public alay e;
+    public boolean g;
+    public alay h;
+    public int i;
+    public ajwo j;
+    private byte k = 2;
+    public String d = "";
+    public String f = "";
+
+    static {
+        apxj apxjVar = new apxj();
+        a = apxjVar;
+        aihn.registerDefaultInstance(apxj.class, apxjVar);
+        b = aihn.newSingularGeneratedExtension(ajwo.a, apxjVar, apxjVar, null, 141942083, aika.MESSAGE, apxj.class);
+    }
+
+    private apxj() {
+    }
+
+    @Override // defpackage.aihn
+    protected final Object dynamicMethod(aihm aihmVar, Object obj, Object obj2) {
+        switch (aihmVar.ordinal()) {
+            case 0:
+                return Byte.valueOf(this.k);
+            case 1:
+                this.k = obj == null ? (byte) 0 : (byte) 1;
+                return null;
+            case 2:
+                return newMessageInfo(a, "\u0004\u0007\u0000\u0001\u0001\b\u0007\u0000\u0000\u0003\u0001ဈ\u0000\u0002ဈ\u0002\u0003ᐉ\u0001\u0004ဇ\u0003\u0005ᐉ\u0004\u0006င\u0005\bᐉ\u0007", new Object[]{"c", "d", "f", "e", "g", "h", "i", "j"});
+            case 3:
+                return new apxj();
+            case 4:
+                return new aihf(a);
+            case 5:
+                return a;
+            case 6:
+                return aihn.getParserForClass(apxj.class);
+            default:
+                return null;
+        }
+    }
+}

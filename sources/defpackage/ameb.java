@@ -1,0 +1,44 @@
+package defpackage;
+
+import app.rive.semantics.SemanticState;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes2.dex */
+public enum ameb implements aihr {
+    INTERACTION_LOGGING_GESTURE_TYPE_UNKNOWN(0),
+    INTERACTION_LOGGING_GESTURE_TYPE_AUTOMATED(1),
+    INTERACTION_LOGGING_GESTURE_TYPE_GENERIC_CLICK(2),
+    INTERACTION_LOGGING_GESTURE_TYPE_HOVER(4),
+    INTERACTION_LOGGING_GESTURE_TYPE_PINCH(8),
+    INTERACTION_LOGGING_GESTURE_TYPE_INPUT_TEXT(16),
+    INTERACTION_LOGGING_GESTURE_TYPE_INPUT_VOICE(32),
+    INTERACTION_LOGGING_GESTURE_TYPE_SWIPE(64),
+    INTERACTION_LOGGING_GESTURE_TYPE_SHAKE(SemanticState.Focused),
+    INTERACTION_LOGGING_GESTURE_TYPE_DOUBLE_CLICK(SemanticState.Hidden),
+    INTERACTION_LOGGING_GESTURE_TYPE_FORCE_TOUCH(SemanticState.LiveRegion),
+    INTERACTION_LOGGING_GESTURE_TYPE_LONG_PRESS(SemanticState.ReadOnly),
+    INTERACTION_LOGGING_GESTURE_TYPE_DRAG_DROP(SemanticState.Modal),
+    INTERACTION_LOGGING_GESTURE_TYPE_FORWARD_SWIPE(SemanticState.Obscured),
+    INTERACTION_LOGGING_GESTURE_TYPE_BACK_SWIPE(SemanticState.Multiline),
+    INTERACTION_LOGGING_GESTURE_TYPE_KEY_PRESS(16384),
+    INTERACTION_LOGGING_GESTURE_TYPE_ROTATE(32768),
+    INTERACTION_LOGGING_GESTURE_TYPE_PAN(65536),
+    INTERACTION_LOGGING_GESTURE_TYPE_SCROLL_BEGAN_DRAGGING(131072),
+    INTERACTION_LOGGING_GESTURE_TYPE_SCROLL_DID_STOP(262144);
+
+    public final int u;
+
+    ameb(int i) {
+        this.u = i;
+    }
+
+    @Override // defpackage.aihr
+    public final int getNumber() {
+        return this.u;
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return Integer.toString(this.u);
+    }
+}

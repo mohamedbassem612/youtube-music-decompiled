@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="one">%d uur</item>
+        <item quantity="other">%d uur</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours_label">
+        <item quantity="one">uur</item>
+        <item quantity="other">uur</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="one">%d minuut</item>
+        <item quantity="other">%d minuten</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes_label">
+        <item quantity="one">minuut</item>
+        <item quantity="other">minuten</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="one">%d seconde</item>
+        <item quantity="other">%d seconden</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds_label">
+        <item quantity="one">seconde</item>
+        <item quantity="other">seconden</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="one">Advertentie overslaan over 1 seconde</item>
+        <item quantity="other">Advertentie overslaan over %1$d seconden</item>
+    </plurals>
+    <plurals name="auto_playlist_with_episode_count_item_subtitle">
+        <item quantity="one">Automatische playlist • 1 aflevering</item>
+        <item quantity="other">Automatische playlist • %1$d afleveringen</item>
+    </plurals>
+    <plurals name="auto_playlist_with_size_item_subtitle">
+        <item quantity="one">Automatische playlist • 1 nummer</item>
+        <item quantity="other">Automatische playlist • %1$d nummers</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_down">
+        <item quantity="one">Video is %d plaats gezakt</item>
+        <item quantity="other">Video is %1$d plaatsen gezakt</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_up">
+        <item quantity="one">Video is %d plaats gestegen</item>
+        <item quantity="other">Video is %1$d plaatsen gestegen</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="one">%1$d uur</item>
+        <item quantity="other">%1$d uur</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="one">%s u</item>
+        <item quantity="other">%s u</item>
+    </plurals>
+    <plurals name="menu_option_hours">
+        <item quantity="one">%s uur</item>
+        <item quantity="other">%s uur</item>
+    </plurals>
+    <plurals name="menu_option_minutes">
+        <item quantity="one">%s minuut</item>
+        <item quantity="other">%s minuten</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="one">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="music_duration_minutes">
+        <item quantity="one">%1$d minuut</item>
+        <item quantity="other">%1$d minuten</item>
+    </plurals>
+    <plurals name="notification_offline_playlist_progress_track_count">
+        <item quantity="one">%1$d van 1 track</item>
+        <item quantity="other">%1$d van %2$d tracks</item>
+    </plurals>
+    <plurals name="offline_playlist_size">
+        <item quantity="one">1 nummer</item>
+        <item quantity="other">%1$,d nummers</item>
+    </plurals>
+    <plurals name="offline_playlist_size_and_duration">
+        <item quantity="one">1 nummer • %2$s</item>
+        <item quantity="other">%1$,d nummers • %2$s</item>
+    </plurals>
+    <plurals name="offline_podcast_playlist_size">
+        <item quantity="one">1 aflevering</item>
+        <item quantity="other">%1$,d afleveringen</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_size_item_subtitle">
+        <item quantity="one">%1$s • 1 nummer</item>
+        <item quantity="other">%1$s • %2$d nummers</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_track_count_item_subtitle">
+        <item quantity="one">%1$s • 1 track</item>
+        <item quantity="other">%1$s • %2$d tracks</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_size_item_subtitle">
+        <item quantity="one">Playlist • %1$s • 1 nummer</item>
+        <item quantity="other">Playlist • %1$s • %2$d nummers</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_track_count_item_subtitle">
+        <item quantity="one">Playlist • %1$s • 1 track</item>
+        <item quantity="other">Playlist • %1$s • %2$d tracks</item>
+    </plurals>
+    <plurals name="podcast_episodes_count">
+        <item quantity="one">1 aflevering</item>
+        <item quantity="other">%1$d afleveringen</item>
+    </plurals>
+    <plurals name="podcast_with_entity_type_and_creator_and_episode_count_item_subtitle">
+        <item quantity="one">Podcast • %1$s • 1 aflevering</item>
+        <item quantity="other">Podcast • %1$s • %2$d afleveringen</item>
+    </plurals>
+    <plurals name="pref_enable_smart_download_recent_music_summary">
+        <item quantity="one">We downloaden maximaal %1$d van je onlangs afgespeelde nummers.</item>
+        <item quantity="other">We downloaden maximaal %1$d van je onlangs afgespeelde nummers.</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">U heeft een melding</item>
+        <item quantity="other">%1$d nieuwe meldingen</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="one">%d seconde</item>
+        <item quantity="other">%d seconden</item>
+    </plurals>
+    <plurals name="smart_downloads_details_header_byline_explanation">
+        <item quantity="one">%1$d nummer slim gedownload</item>
+        <item quantity="other">%1$d nummers slim gedownload</item>
+    </plurals>
+    <plurals name="smart_downloads_num_songs_estimated_space">
+        <item quantity="one">%1$d nummer (~%2$s)</item>
+        <item quantity="other">%1$d nummers (~%2$s)</item>
+    </plurals>
+    <plurals name="song_count">
+        <item quantity="one">1 nummer</item>
+        <item quantity="other">%1$d nummers</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="one">Kom over 1 dag terug</item>
+        <item quantity="other">Kom over %1$d dagen terug</item>
+    </plurals>
+    <plurals name="track_count">
+        <item quantity="one">1 track</item>
+        <item quantity="other">%1$d tracks</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="one">Dubbeltik links of rechts om %d seconde over te slaan</item>
+        <item quantity="other">Dubbeltik links of rechts om %d seconden over te slaan</item>
+    </plurals>
+</resources>

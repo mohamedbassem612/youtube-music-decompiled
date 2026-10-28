@@ -1,0 +1,13 @@
+package org.chromium.support_lib_boundary;
+
+import java.lang.reflect.InvocationHandler;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes5.dex */
+public interface JsReplyProxyBoundaryInterface extends IsomorphicObjectBoundaryInterface {
+    void executeJavaScript(String str, InvocationHandler invocationHandler);
+
+    void postMessage(String str);
+
+    void postMessageWithPayload(InvocationHandler invocationHandler);
+}

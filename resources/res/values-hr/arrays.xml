@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>Niska</item>
+        <item>Normalna</item>
+        <item>Visoka</item>
+        <item>Uvijek visoka</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>5 sekundi</item>
+        <item>10 sekundi</item>
+        <item>15 sekundi</item>
+        <item>20 sekundi</item>
+        <item>30 sekundi</item>
+        <item>60 sekundi</item>
+    </array>
+</resources>

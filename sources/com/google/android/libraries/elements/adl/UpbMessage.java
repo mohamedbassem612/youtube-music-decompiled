@@ -1,0 +1,116 @@
+package com.google.android.libraries.elements.adl;
+
+import dalvik.annotation.optimization.CriticalNative;
+import java.nio.ByteBuffer;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes.dex */
+public final class UpbMessage {
+    public final long a;
+    public final UpbMiniTable b;
+    public final UpbArena c;
+
+    public UpbMessage(long j, UpbMiniTable upbMiniTable, UpbArena upbArena) {
+        this.a = j;
+        this.b = upbMiniTable;
+        this.c = upbArena;
+    }
+
+    public static UpbMessage b(UpbMiniTable upbMiniTable, UpbArena upbArena) {
+        long jJniCreate = jniCreate(upbMiniTable.a, upbArena.a);
+        if (jJniCreate != 0) {
+            return new UpbMessage(jJniCreate, upbMiniTable, upbArena);
+        }
+        throw new IllegalStateException("Failed to create upb message");
+    }
+
+    @CriticalNative
+    private static native void jniClear(long j, long j2);
+
+    private native void jniClearExtension(long j, long j2);
+
+    private native long jniClone(long j, long j2, long j3);
+
+    @CriticalNative
+    private static native long jniCreate(long j, long j2);
+
+    private native void jniDecodeDirect(long j, long j2, long j3, ByteBuffer byteBuffer, int i, int i2);
+
+    private static native long jniGetExtension(long j, long j2, long j3);
+
+    public static native long jniGetExtensionIntoArena(long j, long j2, long j3);
+
+    public static native boolean jniHasExtension(long j, int i);
+
+    private static native boolean jniIsExtensionPromoted(long j, long j2);
+
+    private native int jniSerializedBytesHashCode(long j, long j2);
+
+    private native void jniSetRepeatedBool(long j, long j2, long j3, int i, boolean[] zArr);
+
+    private native ByteBuffer jniSetRepeatedBytes(long j, long j2, long j3, int i, int[] iArr, long j4);
+
+    private native void jniSetRepeatedDouble(long j, long j2, long j3, int i, double[] dArr);
+
+    private native void jniSetRepeatedFloat(long j, long j2, long j3, int i, float[] fArr);
+
+    private native void jniSetRepeatedInt32(long j, long j2, long j3, int i, int[] iArr);
+
+    private native void jniSetRepeatedInt64(long j, long j2, long j3, int i, long[] jArr);
+
+    /* JADX INFO: renamed from: a, reason: merged with bridge method [inline-methods] */
+    public final UpbMessage clone() {
+        UpbArena upbArena = new UpbArena();
+        long j = upbArena.a;
+        long j2 = this.a;
+        UpbMiniTable upbMiniTable = this.b;
+        return new UpbMessage(jniClone(j2, upbMiniTable.a, j), upbMiniTable, upbArena);
+    }
+
+    public final UpbMessage c(long j, UpbMiniTable upbMiniTable) {
+        long j2 = this.a;
+        UpbArena upbArena = this.c;
+        long jJniGetExtension = jniGetExtension(j2, j, upbArena.a);
+        if (jJniGetExtension == 0) {
+            return null;
+        }
+        return new UpbMessage(jJniGetExtension, upbMiniTable, upbArena);
+    }
+
+    public final boolean equals(Object obj) {
+        if (!(obj instanceof UpbMessage)) {
+            return false;
+        }
+        UpbMessage upbMessage = (UpbMessage) obj;
+        if (this != upbMessage) {
+            long j = this.a;
+            long j2 = upbMessage.a;
+            if (j != j2) {
+                UpbMiniTable upbMiniTable = this.b;
+                UpbArena upbArena = this.c;
+                return UpbUtils.jniEquals(j, j2, upbMiniTable.a, upbArena.a, upbMessage.c.a);
+            }
+        }
+        return true;
+    }
+
+    public final int hashCode() {
+        return jniSerializedBytesHashCode(this.a, this.b.a);
+    }
+
+    public native void jniDecode(long j, long j2, long j3, byte[] bArr, int i, int i2);
+
+    public native byte[] jniEncode(long j, long j2);
+
+    public native Object[] jniGetExtensionOrUnknownField(long j, int i, long j2, boolean z);
+
+    public native int[] jniGetExtensionOrUnknownFieldNumbers(long j);
+
+    public native int jniGetFirstExtensionOrUnknownFieldNumber(long j);
+
+    public native void jniSetExtension(long j, long j2, long j3, long j4);
+
+    public native void jniSetMap(long j, long j2, long j3, int i, long[] jArr);
+
+    public native void jniSetRepeatedPointer(long j, long j2, long j3, int i, long[] jArr);
+}

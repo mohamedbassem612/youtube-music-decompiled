@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app_engagement_panel_wrapper"
+    android:background="@android:color/transparent"
+    android:paddingTop="24dp"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/scrim"
+        android:background="?attr/ytOverlayBackgroundMedium"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:importantForAccessibility="no"/>
+    <include layout="@layout/engagement_panel_lower_view"/>
+    <RelativeLayout
+        android:id="@+id/app_engagement_panel"
+        android:background="@null"
+        android:visibility="gone"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_gravity="bottom"
+        android:id="@+id/engagement_panel_floating_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/devicepicker_route_divider_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/device_picker_section_header_divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/yt_sys_measurement_size_hairline"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/device_picker_section_header_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView
+            android:textAppearance="?attr/ytTextAppearanceBody2b"
+            android:gravity="center_vertical"
+            android:id="@+id/device_picker_section_header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="52dp"
+            android:paddingStart="12dp"/>
+        <ProgressBar
+            android:gravity="center_vertical"
+            android:id="@+id/device_picker_section_header_progress_bar"
+            android:visibility="visible"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:indeterminate="true"
+            android:contentDescription="@string/mdx_device_picker_searching_for_devices_progress_bar_content_description"
+            android:layout_marginStart="12dp"
+            style="?android:attr/progressBarStyle"/>
+    </LinearLayout>
+</LinearLayout>

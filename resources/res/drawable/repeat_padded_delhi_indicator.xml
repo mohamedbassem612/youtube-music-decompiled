@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:gravity="fill"
+        android:height="22dp"
+        android:width="22dp"
+        android:drawable="@drawable/yt_outline_experimental_repeat_vd_theme_24"
+        android:top="3dp"
+        android:bottom="3dp"/>
+    <item
+        android:gravity="bottom|center_horizontal"
+        android:height="3dp"
+        android:width="3dp"
+        android:left="9.5dp"
+        android:top="25dp"
+        android:right="9.5dp">
+        <shape
+            android:tint="@color/ytm_color_white"
+            android:shape="oval"/>
+    </item>
+</layer-list>

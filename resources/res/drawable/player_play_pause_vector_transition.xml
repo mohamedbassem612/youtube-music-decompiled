@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_player_play_pause_vector_transition__0_res_0x7f080032">
+    <target
+        android:name="play_to_pause"
+        android:animation="@drawable/_player_play_pause_vector_transition__1_res_0x7f080033"/>
+</animated-vector>

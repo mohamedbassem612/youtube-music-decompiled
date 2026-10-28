@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>Nízká</item>
+        <item>Normální</item>
+        <item>Vysoká</item>
+        <item>Vždy vysoká</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>5 sekund</item>
+        <item>10 sekund</item>
+        <item>15 sekund</item>
+        <item>20 sekund</item>
+        <item>30 sekund</item>
+        <item>60 sekund</item>
+    </array>
+</resources>

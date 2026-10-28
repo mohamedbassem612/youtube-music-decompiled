@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.common.ui.AccessibilityLayerLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/accessibility_layer_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    yt:backgroundViewId="@+id/main_layout_wrapper">
+    <FrameLayout
+        android:id="@+id/custom_thumbnail_creation_music_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <include layout="@layout/engagement_panel_layout"/>
+</com.google.android.libraries.youtube.common.ui.AccessibilityLayerLayout>

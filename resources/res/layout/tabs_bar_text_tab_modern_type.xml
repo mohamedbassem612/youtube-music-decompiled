@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tabs_bar_text_tab_view"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <Space
+        android:id="@+id/tabs_bar_text_tab_separator"
+        android:visibility="gone"
+        android:layout_width="@dimen/default_tabs_separator_width"
+        android:layout_height="match_parent"
+        yt:layout_constraintStart_toStartOf="parent"
+        yt:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+        android:id="@+id/image"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:importantForAccessibility="no"
+        yt:layout_constraintBottom_toBottomOf="parent"
+        yt:layout_constraintStart_toEndOf="@+id/tabs_bar_text_tab_separator"
+        yt:layout_constraintTop_toTopOf="parent"/>
+    <com.google.android.libraries.youtube.rendering.ui.spec.typography.YouTubeAppCompatTextView
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/text"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:minWidth="@dimen/yt_sys_measurement_size_legend"
+        android:maxLines="1"
+        android:textAllCaps="false"
+        android:layout_marginStart="@dimen/tab_space_width_between_icon_and_title"
+        yt:layout_constraintStart_toEndOf="@+id/image"
+        yt:layout_constraintTop_toTopOf="parent"
+        yt:layout_goneMarginStart="0dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reel_watch_splash_screen_container"
+    android:background="?attr/ytOverlayBackgroundMedium"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:importantForAccessibility="no">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView
+        android:textAppearance="?attr/ytTextAppearanceDisplay1"
+        android:textColor="?attr/ytStaticBrandWhite"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/reel_watch_splash_screen_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/reel_player_contextual_header_margin_start"/>
+</FrameLayout>

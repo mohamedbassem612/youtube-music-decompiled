@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>Aşağı</item>
+        <item>Normal</item>
+        <item>Yüksək</item>
+        <item>Həmişə Yüksək</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>5 saniyə</item>
+        <item>10 saniyə</item>
+        <item>15 saniyə</item>
+        <item>20 saniyə</item>
+        <item>30 saniyə</item>
+        <item>60 saniyə</item>
+    </array>
+</resources>

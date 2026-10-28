@@ -1,0 +1,27 @@
+package defpackage;
+
+import android.content.pm.ShortcutInfo;
+import android.content.pm.ShortcutManager;
+import android.view.inputmethod.InputContentInfo;
+
+/* JADX INFO: compiled from: D8$$SyntheticClass */
+/* JADX INFO: loaded from: classes3.dex */
+public final /* synthetic */ class zs$$ExternalSyntheticApiModelOutline0 {
+    public static /* bridge */ /* synthetic */ ShortcutInfo m(Object obj) {
+        return (ShortcutInfo) obj;
+    }
+
+    /* JADX INFO: renamed from: m, reason: collision with other method in class */
+    public static /* bridge */ /* synthetic */ ShortcutManager m949m(Object obj) {
+        return (ShortcutManager) obj;
+    }
+
+    /* JADX INFO: renamed from: m, reason: collision with other method in class */
+    public static /* bridge */ /* synthetic */ InputContentInfo m951m(Object obj) {
+        return (InputContentInfo) obj;
+    }
+
+    public static /* bridge */ /* synthetic */ Class m() {
+        return ShortcutManager.class;
+    }
+}

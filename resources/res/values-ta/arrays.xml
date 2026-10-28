@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>குறைவு</item>
+        <item>இயல்பு</item>
+        <item>உயர்தரம்</item>
+        <item>எப்போதும் உயர்தரம்</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>5 வினாடிகள்</item>
+        <item>10 வினாடிகள்</item>
+        <item>15 வினாடிகள்</item>
+        <item>20 வினாடிகள்</item>
+        <item>30 வினாடிகள்</item>
+        <item>60 வினாடிகள்</item>
+    </array>
+</resources>

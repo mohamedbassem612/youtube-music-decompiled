@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>დაბალი</item>
+        <item>ჩვეულებრივი</item>
+        <item>მაღალი</item>
+        <item>ყოველთვის მაღალი</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>5 წამი</item>
+        <item>10 წამი</item>
+        <item>15 წამი</item>
+        <item>20 წამი</item>
+        <item>30 წამი</item>
+        <item>60 წამი</item>
+    </array>
+</resources>

@@ -1,0 +1,50 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes2.dex */
+public final class anrv extends aihn implements aiis {
+    public static final anrv a;
+    public int b;
+    public alay c;
+    public alja d;
+    public alja e;
+    public ajwo g;
+    public ajwo h;
+    public aiqe i;
+    public aiqe j;
+    private byte l = 2;
+    public String f = "";
+    public aigj k = aigj.d;
+
+    static {
+        anrv anrvVar = new anrv();
+        a = anrvVar;
+        aihn.registerDefaultInstance(anrv.class, anrvVar);
+    }
+
+    private anrv() {
+    }
+
+    @Override // defpackage.aihn
+    protected final Object dynamicMethod(aihm aihmVar, Object obj, Object obj2) {
+        switch (aihmVar.ordinal()) {
+            case 0:
+                return Byte.valueOf(this.l);
+            case 1:
+                this.l = obj == null ? (byte) 0 : (byte) 1;
+                return null;
+            case 2:
+                return newMessageInfo(a, "\u0004\t\u0000\u0001\u0001\u000b\t\u0000\u0000\u0005\u0001ᐉ\u0000\u0002ဈ\u0003\u0003ᐉ\u0004\u0004ᐉ\u0005\u0006ည\t\bᐉ\u0001\tᐉ\u0002\nဉ\u0006\u000bဉ\u0007", new Object[]{"b", "c", "f", "g", "h", "k", "d", "e", "i", "j"});
+            case 3:
+                return new anrv();
+            case 4:
+                return new aihf(a);
+            case 5:
+                return a;
+            case 6:
+                return aihn.getParserForClass(anrv.class);
+            default:
+                return null;
+        }
+    }
+}

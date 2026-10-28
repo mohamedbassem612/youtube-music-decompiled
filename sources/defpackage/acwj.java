@@ -1,0 +1,14 @@
+package defpackage;
+
+import android.view.View;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes4.dex */
+final class acwj extends axx {
+    @Override // defpackage.axx
+    public final void onInitializeAccessibilityNodeInfo(View view, bbz bbzVar) {
+        super.onInitializeAccessibilityNodeInfo(view, bbzVar);
+        bbzVar.X(bby.a);
+        bbzVar.w(false);
+    }
+}

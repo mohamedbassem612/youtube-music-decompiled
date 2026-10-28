@@ -1,0 +1,3 @@
+
+sy5|5469d6db8f0534f8ìvar Gc,Hc=class extends N{static m(){var a=upbA();return new Hc(l(Hc.j(),a),a)}static parse(a){var b=upbA();return new Hc(m(a,Hc.j(),b),b)}static j(){Gc||(Gc=f("$(1"));return Gc}create(a,b){return new Hc(a,b)}get h(){return n(this.l,1,5)}set h(a){upbS5(this.l,1,a,5)}},Ic=function(a,b,c){a=a.h;c=c==null?void 0:c.P();c=typeof ytbb_getSignalFromApi!=="undefined"?ytbb_getSignalFromApi(a,1,c):void 0;return c?b(c):b(Uint8Array.from([]))},Jc=function(a,b){return Ic(a,c=>c,b)},Kc=function(a,b){var c=Hc.m();
+c.h=b.ha;var d=Jc(a.u,c);if(d.length!==0)return c=a.h,d=String.fromCharCode(...d),c=Ga(c.h,d),b.ia(c,a.container)};(øé”ø¸Ûõ´T: }Y«Yæ1A‰…˜Š³¢“¾Œv/ß8ß¯d¢¼Tf

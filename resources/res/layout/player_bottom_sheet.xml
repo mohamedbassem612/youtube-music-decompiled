@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.youtube.music.watchpage.ui.PlayerBottomSheet xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/player_bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:behavior_hideable="false"
+    app:dragHandleId="@+id/bottom_sheet_drag_handle"
+    app:layout_behavior="com.google.android.apps.youtube.music.watchpage.ui.PlayerPageBehavior"
+    app:queueHeaderId="@+id/queue_page_header"
+    app:tabbedViewId="@+id/bottom_sheet_tabbed_view">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/bottom_sheet_drag_handle"
+        android:paddingTop="@dimen/item_small_spacing"
+        android:paddingBottom="@dimen/item_extra_small_spacing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/single_bar_drag_handle"
+        android:tint="@color/ytm_color_white"
+        android:contentDescription="@string/drag_handle_content_description"
+        android:alpha="@dimen/tab_drag_handle_alpha"/>
+    <com.google.android.apps.youtube.music.ui.tabs.TabbedView
+        android:id="@+id/bottom_sheet_tabbed_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:scrollable="false"/>
+</com.google.android.apps.youtube.music.watchpage.ui.PlayerBottomSheet>

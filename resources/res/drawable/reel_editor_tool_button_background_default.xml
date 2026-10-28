@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <solid android:color="?attr/ytOverlayBackgroundMediumLight"/>
+    <size
+        android:height="@dimen/reel_tool_button_size"
+        android:width="@dimen/reel_tool_button_size"/>
+</shape>

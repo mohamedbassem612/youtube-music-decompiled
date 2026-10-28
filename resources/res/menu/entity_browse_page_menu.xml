@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/yt_outline_search_white_24"
+        android:id="@+id/action_search"
+        android:title="@string/search"
+        android:actionProviderClass="com.google.android.apps.youtube.music.search.SearchActionProvider"
+        app:actionProviderClass="com.google.android.apps.youtube.music.search.SearchActionProvider"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/done_editing"
+        android:visible="false"
+        android:title="@string/menu_editing_done"
+        app:actionLayout="@layout/done_editing_button"
+        app:showAsAction="withText|always"/>
+</menu>

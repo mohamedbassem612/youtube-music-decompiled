@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.youtube.music.ui.preference.PreferenceCategoryCompat
+        android:persistent="false"
+        android:key="pref_key_settings_general">
+        <ListPreference
+            android:persistent="false"
+            android:enabled="false"
+            android:key="restricted_mode_detailed_description"
+            android:summary="@string/pref_restricted_mode_detailed_summary"
+            android:defaultValue="Normal"/>
+        <com.google.android.apps.youtube.music.ui.preference.SwitchCompatPreference
+            android:persistent="false"
+            android:enabled="false"
+            android:title="@string/pref_restricted_mode_current_device_title"
+            android:key="innertube_managed_restricted_mode"/>
+        <com.google.android.libraries.youtube.common.ui.preferences.ProtoDataStoreSwitchPreference
+            android:persistent="false"
+            android:title="@string/pref_restricted_mode_current_device_title"
+            android:key="innertube_safety_mode_enabled"
+            android:summary="@string/pref_safety_mode_summary"/>
+    </com.google.android.apps.youtube.music.ui.preference.PreferenceCategoryCompat>
+</PreferenceScreen>

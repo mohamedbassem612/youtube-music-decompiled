@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="one">%d godzina</item>
+        <item quantity="few">%d godziny</item>
+        <item quantity="many">%d godzin</item>
+        <item quantity="other">%d godziny</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours_label">
+        <item quantity="one">godzina</item>
+        <item quantity="few">godziny</item>
+        <item quantity="many">godzin</item>
+        <item quantity="other">godziny</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="one">%d minuta</item>
+        <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
+        <item quantity="other">%d minuty</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes_label">
+        <item quantity="one">minuta</item>
+        <item quantity="few">minuty</item>
+        <item quantity="many">minut</item>
+        <item quantity="other">minuty</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekund</item>
+        <item quantity="other">%d sekundy</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds_label">
+        <item quantity="one">sekunda</item>
+        <item quantity="few">sekundy</item>
+        <item quantity="many">sekund</item>
+        <item quantity="other">sekundy</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="one">Pomiń reklamę za 1 sekundę</item>
+        <item quantity="few">Pomiń reklamę za %1$d sekundy</item>
+        <item quantity="many">Pomiń reklamę za %1$d sekund</item>
+        <item quantity="other">Pomiń reklamę za %1$d sekundy</item>
+    </plurals>
+    <plurals name="auto_playlist_with_episode_count_item_subtitle">
+        <item quantity="one">Auto-playlista • 1 odcinek</item>
+        <item quantity="few">Auto-playlista • %1$d odcinki</item>
+        <item quantity="many">Auto-playlista • %1$d odcinków</item>
+        <item quantity="other">Auto-playlista • %1$d odcinka</item>
+    </plurals>
+    <plurals name="auto_playlist_with_size_item_subtitle">
+        <item quantity="one">Auto-playlista • 1 utwór</item>
+        <item quantity="few">Auto-playlista • %1$d utwory</item>
+        <item quantity="many">Auto-playlista • %1$d utworów</item>
+        <item quantity="other">Auto-playlista • %1$d utworu</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_down">
+        <item quantity="one">Film spadł o %d miejsce</item>
+        <item quantity="few">Film spadł o %1$d miejsca</item>
+        <item quantity="many">Film spadł o %1$d miejsc</item>
+        <item quantity="other">Film spadł o %1$d miejsca</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_up">
+        <item quantity="one">Film przesunął się w górę o %d miejsce</item>
+        <item quantity="few">Film przesunął się w górę o %1$d miejsca</item>
+        <item quantity="many">Film przesunął się w górę o %1$d miejsc</item>
+        <item quantity="other">Film przesunął się w górę o %1$d miejsca</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="one">%1$d godz.</item>
+        <item quantity="few">%1$d godz.</item>
+        <item quantity="many">%1$d godz.</item>
+        <item quantity="other">%1$d godz.</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="one">%s godz.</item>
+        <item quantity="few">%s godz.</item>
+        <item quantity="many">%s godz.</item>
+        <item quantity="other">%s godz.</item>
+    </plurals>
+    <plurals name="menu_option_hours">
+        <item quantity="one">%s godzina</item>
+        <item quantity="few">%s godziny</item>
+        <item quantity="many">%s godzin</item>
+        <item quantity="other">%s godziny</item>
+    </plurals>
+    <plurals name="menu_option_minutes">
+        <item quantity="one">%s minuta</item>
+        <item quantity="few">%s minuty</item>
+        <item quantity="many">%s minut</item>
+        <item quantity="other">%s minuty</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="one">%s min</item>
+        <item quantity="few">%s min</item>
+        <item quantity="many">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="music_duration_minutes">
+        <item quantity="one">%1$d minuta</item>
+        <item quantity="few">%1$d minuty</item>
+        <item quantity="many">%1$d minut</item>
+        <item quantity="other">%1$d minuty</item>
+    </plurals>
+    <plurals name="notification_offline_playlist_progress_track_count">
+        <item quantity="one">%1$d z 1 utworu</item>
+        <item quantity="few">%1$d z %2$d utworów</item>
+        <item quantity="many">%1$d z %2$d utworów</item>
+        <item quantity="other">%1$d z %2$d utworu</item>
+    </plurals>
+    <plurals name="offline_playlist_size">
+        <item quantity="one">1 utwór</item>
+        <item quantity="few">%1$,d utwory</item>
+        <item quantity="many">%1$,d utworów</item>
+        <item quantity="other">%1$,d utworu</item>
+    </plurals>
+    <plurals name="offline_playlist_size_and_duration">
+        <item quantity="one">1 utwór • %2$s</item>
+        <item quantity="few">%1$,d utwory • %2$s</item>
+        <item quantity="many">%1$,d utworów • %2$s</item>
+        <item quantity="other">%1$,d utworu • %2$s</item>
+    </plurals>
+    <plurals name="offline_podcast_playlist_size">
+        <item quantity="one">1 odcinek</item>
+        <item quantity="few">%1$,d odcinki</item>
+        <item quantity="many">%1$,d odcinków</item>
+        <item quantity="other">%1$,d odcinka</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_size_item_subtitle">
+        <item quantity="one">%1$s • 1 utwór</item>
+        <item quantity="few">%1$s • %2$d utwory</item>
+        <item quantity="many">%1$s • %2$d utworów</item>
+        <item quantity="other">%1$s • %2$d utworu</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_track_count_item_subtitle">
+        <item quantity="one">%1$s • 1 utwór</item>
+        <item quantity="few">%1$s • %2$d utwory</item>
+        <item quantity="many">%1$s • %2$d utworów</item>
+        <item quantity="other">%1$s • %2$d utworu</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_size_item_subtitle">
+        <item quantity="one">Playlista • %1$s • 1 utwór</item>
+        <item quantity="few">Playlista • %1$s • %2$d utwory</item>
+        <item quantity="many">Playlista • %1$s • %2$d utworów</item>
+        <item quantity="other">Playlista • %1$s • %2$d utworu</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_track_count_item_subtitle">
+        <item quantity="one">Playlista • %1$s • 1 utwór</item>
+        <item quantity="few">Playlista • %1$s • %2$d utwory</item>
+        <item quantity="many">Playlista • %1$s • %2$d utworów</item>
+        <item quantity="other">Playlista • %1$s • %2$d utworu</item>
+    </plurals>
+    <plurals name="podcast_episodes_count">
+        <item quantity="one">1 odcinek</item>
+        <item quantity="few">%1$d odcinki</item>
+        <item quantity="many">%1$d odcinków</item>
+        <item quantity="other">%1$d odcinka</item>
+    </plurals>
+    <plurals name="podcast_with_entity_type_and_creator_and_episode_count_item_subtitle">
+        <item quantity="one">Podcast • %1$s • 1 odcinek</item>
+        <item quantity="few">Podcast • %1$s • %2$d odcinki</item>
+        <item quantity="many">Podcast • %1$s • %2$d odcinków</item>
+        <item quantity="other">Podcast • %1$s • %2$d odcinka</item>
+    </plurals>
+    <plurals name="pref_enable_smart_download_recent_music_summary">
+        <item quantity="one">Możemy pobrać maksymalnie %1$d z Twoich ostatnio odtwarzanych utworów.</item>
+        <item quantity="few">Możemy pobrać maksymalnie %1$d z Twoich ostatnio odtwarzanych utworów.</item>
+        <item quantity="many">Możemy pobrać maksymalnie %1$d z Twoich ostatnio odtwarzanych utworów.</item>
+        <item quantity="other">Możemy pobrać maksymalnie %1$d z Twoich ostatnio odtwarzanych utworów.</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">Masz powiadomienie</item>
+        <item quantity="few">%1$d nowe powiadomienia</item>
+        <item quantity="many">%1$d nowych powiadomień</item>
+        <item quantity="other">%1$d nowego powiadomienia</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekund</item>
+        <item quantity="other">%d sekundy</item>
+    </plurals>
+    <plurals name="smart_downloads_details_header_byline_explanation">
+        <item quantity="one">Pobrano inteligentnie %1$d utwór</item>
+        <item quantity="few">Pobrano inteligentnie %1$d utwory</item>
+        <item quantity="many">Pobrano inteligentnie %1$d utworów</item>
+        <item quantity="other">Pobrano inteligentnie %1$d utworu</item>
+    </plurals>
+    <plurals name="smart_downloads_num_songs_estimated_space">
+        <item quantity="one">%1$d utwór (~%2$s)</item>
+        <item quantity="few">%1$d utwory (~%2$s)</item>
+        <item quantity="many">%1$d utworów (~%2$s)</item>
+        <item quantity="other">%1$d utworu (~%2$s)</item>
+    </plurals>
+    <plurals name="song_count">
+        <item quantity="one">1 utwór</item>
+        <item quantity="few">%1$d utwory</item>
+        <item quantity="many">%1$d utworów</item>
+        <item quantity="other">%1$d utworu</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="one">Wróć za 1 dzień</item>
+        <item quantity="few">Wróć za %1$d dni</item>
+        <item quantity="many">Wróć za %1$d dni</item>
+        <item quantity="other">Wróć za %1$d dnia</item>
+    </plurals>
+    <plurals name="track_count">
+        <item quantity="one">1 ścieżka</item>
+        <item quantity="few">%1$d ścieżki</item>
+        <item quantity="many">%1$d ścieżek</item>
+        <item quantity="other">%1$d ścieżki</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="one">Dotknij dwukrotnie po lewej lub po prawej stronie, aby przewinąć o %d sekundę</item>
+        <item quantity="few">Dotknij dwukrotnie po lewej lub po prawej stronie, aby przewinąć o %d sekundy</item>
+        <item quantity="many">Dotknij dwukrotnie po lewej lub po prawej stronie, aby przewinąć o %d sekund</item>
+        <item quantity="other">Dotknij dwukrotnie po lewej lub po prawej stronie, aby przewinąć o %d sekundy</item>
+    </plurals>
+</resources>

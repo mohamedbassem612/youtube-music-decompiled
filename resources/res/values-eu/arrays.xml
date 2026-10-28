@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>Txikia</item>
+        <item>Normala</item>
+        <item>Handia</item>
+        <item>Beti handia</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>5 segundo</item>
+        <item>10 segundo</item>
+        <item>15 segundo</item>
+        <item>20 segundo</item>
+        <item>30 segundo</item>
+        <item>60 segundo</item>
+    </array>
+</resources>

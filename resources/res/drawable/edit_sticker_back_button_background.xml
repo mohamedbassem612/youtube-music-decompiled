@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="?attr/ytOverlayButtonPrimary">
+    <item android:id="@android:id/mask">
+        <shape android:shape="oval">
+            <solid android:color="?attr/ytStaticWhite"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/edit_sticker_back_button_background_color"/>
+            <size
+                android:height="@dimen/yt_sys_measurement_size_hairline"
+                android:width="@dimen/yt_sys_measurement_size_hairline"/>
+        </shape>
+    </item>
+</ripple>

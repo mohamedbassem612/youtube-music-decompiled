@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="?attr/selectableItemBackground"
+    android:paddingTop="@dimen/devicepicker_route_container_padding_top"
+    android:paddingBottom="@dimen/devicepicker_route_container_padding_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/devicepicker_route_container_min_height">
+    <include layout="@layout/mdx_device_picker_overflow_disconnect_menu_item"/>
+    <include layout="@layout/mdx_device_picker_overflow_bug_report_menu_item"/>
+</LinearLayout>

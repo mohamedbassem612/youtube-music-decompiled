@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <inset android:inset="@dimen/text_input_submit_padding">
+            <shape android:shape="oval">
+                <solid android:color="?attr/ytStaticBrandWhite"/>
+            </shape>
+        </inset>
+    </item>
+    <item android:state_enabled="false">
+        <inset android:inset="@dimen/text_input_submit_padding">
+            <shape android:shape="oval">
+                <solid android:color="?attr/ytOverlayButtonSecondary"/>
+            </shape>
+        </inset>
+    </item>
+</selector>

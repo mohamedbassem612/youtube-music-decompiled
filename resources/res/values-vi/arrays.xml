@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>Thấp</item>
+        <item>Bình thường</item>
+        <item>Cao</item>
+        <item>Luôn cao</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>5 giây</item>
+        <item>10 giây</item>
+        <item>15 giây</item>
+        <item>20 giây</item>
+        <item>30 giây</item>
+        <item>60 giây</item>
+    </array>
+</resources>

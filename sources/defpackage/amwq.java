@@ -1,0 +1,37 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes2.dex */
+public final class amwq extends aihn implements aiis {
+    public static final amwq a;
+
+    static {
+        amwq amwqVar = new amwq();
+        a = amwqVar;
+        aihn.registerDefaultInstance(amwq.class, amwqVar);
+    }
+
+    private amwq() {
+    }
+
+    @Override // defpackage.aihn
+    protected final Object dynamicMethod(aihm aihmVar, Object obj, Object obj2) {
+        int iOrdinal = aihmVar.ordinal();
+        if (iOrdinal == 2) {
+            return newMessageInfo(a, "\u0004\u0000", null);
+        }
+        if (iOrdinal == 3) {
+            return new amwq();
+        }
+        if (iOrdinal == 4) {
+            return new aihf(a);
+        }
+        if (iOrdinal == 5) {
+            return a;
+        }
+        if (iOrdinal == 6) {
+            return aihn.getParserForClass(amwq.class);
+        }
+        return null;
+    }
+}

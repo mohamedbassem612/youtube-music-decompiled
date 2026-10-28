@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="?attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp">
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/manage_account_icon"
+        android:layout_width="@dimen/yt_sys_measurement_icon_size_expanded"
+        android:layout_height="@dimen/yt_sys_measurement_icon_size_expanded"
+        android:src="@drawable/yt_outline_experimental_person_gear_black_24"
+        android:scaleType="center"
+        android:tint="?attr/ytTextPrimary"
+        android:contentDescription="@string/account_switcher_manage_account"/>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView
+        android:textColor="?attr/ytTextPrimary"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@+id/manage_account_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/yt_sys_measurement_size_hero"
+        android:text="@string/account_switcher_manage_account"
+        android:singleLine="true"
+        android:textAlignment="viewStart"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"/>
+</LinearLayout>

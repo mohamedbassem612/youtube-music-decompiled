@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd">
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:textColor="?android:attr/textColorPrimary"
+        android:ellipsize="marquee"
+        android:id="@android:id/title"
+        android:fadingEdge="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/item_small_medium_spacing"
+        android:maxLines="1"
+        android:textAlignment="viewStart"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="?android:attr/textColorSecondary"
+        android:ellipsize="end"
+        android:id="@android:id/summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/item_small_spacing"
+        android:maxLines="2"
+        android:textAlignment="viewStart"/>
+    <com.google.android.material.slider.Slider
+        android:theme="@style/Theme.MaterialComponents"
+        android:id="@+id/slider"
+        android:paddingTop="@dimen/item_small_medium_spacing"
+        android:paddingBottom="@dimen/item_small_medium_spacing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/item_small_medium_spacing"
+        app:thumbColor="@color/ytm_color_blue_01"
+        app:trackColorActive="@color/ytm_color_blue_01"/>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto"
+    android:layout_width="128dp"
+    android:layout_height="128dp">
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_calendar_sticker"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/date_sticker_image"/>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView
+        android:textSize="48dp"
+        android:textColor="@color/yt_black1"
+        android:layout_gravity="center"
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        yt:youTubeSansFont="bold"/>
+</FrameLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="one">%d uur</item>
+        <item quantity="other">%d uur</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours_label">
+        <item quantity="one">uur</item>
+        <item quantity="other">ure</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="one">%d minuut</item>
+        <item quantity="other">%d minute</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes_label">
+        <item quantity="one">minuut</item>
+        <item quantity="other">minute</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="one">%d sekonde</item>
+        <item quantity="other">%d sekondes</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds_label">
+        <item quantity="one">sekonde</item>
+        <item quantity="other">sekondes</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="one">Slaan advertensie oor 1 sekonde oor</item>
+        <item quantity="other">Slaan advertensie oor %1$d sekondes oor</item>
+    </plurals>
+    <plurals name="auto_playlist_with_episode_count_item_subtitle">
+        <item quantity="one">Outo-snitlys • 1 episode</item>
+        <item quantity="other">Outo-snitlys • %1$d episodes</item>
+    </plurals>
+    <plurals name="auto_playlist_with_size_item_subtitle">
+        <item quantity="one">Outosnitlys • 1 liedjie</item>
+        <item quantity="other">Outosnitlys • %1$d liedjies</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_down">
+        <item quantity="one">Video het %d plek afgeskuif</item>
+        <item quantity="other">Video het %1$d plekke afgeskuif</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_up">
+        <item quantity="one">Video het %d plek opgeskuif</item>
+        <item quantity="other">Video het %1$d plekke opgeskuif</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="one">%1$d uur</item>
+        <item quantity="other">%1$d ure</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="one">%s u.</item>
+        <item quantity="other">%s u.</item>
+    </plurals>
+    <plurals name="menu_option_hours">
+        <item quantity="one">%s uur</item>
+        <item quantity="other">%s uur</item>
+    </plurals>
+    <plurals name="menu_option_minutes">
+        <item quantity="one">%s minuut</item>
+        <item quantity="other">%s minute</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="one">%s min.</item>
+        <item quantity="other">%s min.</item>
+    </plurals>
+    <plurals name="music_duration_minutes">
+        <item quantity="one">%1$d minuut</item>
+        <item quantity="other">%1$d minute</item>
+    </plurals>
+    <plurals name="notification_offline_playlist_progress_track_count">
+        <item quantity="one">%1$d van 1 snit</item>
+        <item quantity="other">%1$d van %2$d snitte</item>
+    </plurals>
+    <plurals name="offline_playlist_size">
+        <item quantity="one">1 liedjie</item>
+        <item quantity="other">%1$,d liedjies</item>
+    </plurals>
+    <plurals name="offline_playlist_size_and_duration">
+        <item quantity="one">1 liedjie • %2$s</item>
+        <item quantity="other">%1$,d liedjies • %2$s</item>
+    </plurals>
+    <plurals name="offline_podcast_playlist_size">
+        <item quantity="one">1 episode</item>
+        <item quantity="other">%1$,d episodes</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_size_item_subtitle">
+        <item quantity="one">%1$s • 1 liedjie</item>
+        <item quantity="other">%1$s • %2$d liedjies</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_track_count_item_subtitle">
+        <item quantity="one">%1$s • 1 snit</item>
+        <item quantity="other">%1$s • %2$d snitte</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_size_item_subtitle">
+        <item quantity="one">Snitlys • %1$s • 1 liedjie</item>
+        <item quantity="other">Snitlys • %1$s • %2$d liedjies</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_track_count_item_subtitle">
+        <item quantity="one">Snitlys • %1$s • 1 snit</item>
+        <item quantity="other">Snitlys • %1$s • %2$d snitte</item>
+    </plurals>
+    <plurals name="podcast_episodes_count">
+        <item quantity="one">1 episode</item>
+        <item quantity="other">%1$d episodes</item>
+    </plurals>
+    <plurals name="podcast_with_entity_type_and_creator_and_episode_count_item_subtitle">
+        <item quantity="one">Podsending • %1$s • 1 episode</item>
+        <item quantity="other">Podsending • %1$s • %2$d episodes</item>
+    </plurals>
+    <plurals name="pref_enable_smart_download_recent_music_summary">
+        <item quantity="one">Ons sal tot %1$d van liedjies wat jy onlangs gespeel het, aflaai.</item>
+        <item quantity="other">Ons sal tot %1$d van liedjies wat jy onlangs gespeel het, aflaai.</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">You have a notification</item>
+        <item quantity="other">%1$d new notifications</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="one">%d sekonde</item>
+        <item quantity="other">%d sekondes</item>
+    </plurals>
+    <plurals name="smart_downloads_details_header_byline_explanation">
+        <item quantity="one">%1$d liedjie is slim afgelaai</item>
+        <item quantity="other">%1$d liedjies is slim afgelaai</item>
+    </plurals>
+    <plurals name="smart_downloads_num_songs_estimated_space">
+        <item quantity="one">%1$d liedjie (~%2$s)</item>
+        <item quantity="other">%1$d liedjies (~%2$s)</item>
+    </plurals>
+    <plurals name="song_count">
+        <item quantity="one">1 liedjie</item>
+        <item quantity="other">%1$d liedjies</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="one">Kom oor 1 dag terug</item>
+        <item quantity="other">Kom oor %1$d dae terug</item>
+    </plurals>
+    <plurals name="track_count">
+        <item quantity="one">1 snit</item>
+        <item quantity="other">%1$d snitte</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="one">Dubbeltik links of regs om %d sekonde oor te slaan</item>
+        <item quantity="other">Dubbeltik links of regs om %d sekondes oor te slaan</item>
+    </plurals>
+</resources>

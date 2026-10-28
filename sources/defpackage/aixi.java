@@ -1,0 +1,76 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes2.dex */
+public enum aixi implements aihr {
+    CONNECTIVITY(0),
+    CLIENT_PLAYBACK_NONCE_KEY(1),
+    LAST_USER_INTERACTION_MS(2),
+    CONTENT_CURRENT_TIME_MS(3),
+    PLAYER_HEIGHT(4),
+    PLAYER_WIDTH(5),
+    REQUEST_WALL_TIME_MS(6),
+    SDK_VERSION(7),
+    PLAYER_VISIBILITY(8),
+    VOLUME(9),
+    CLIENT_WALLTIME_MS(10),
+    AD_CLIENT_PLAYBACK_NONCE_KEY(11),
+    AD_CURRENT_TIME_MS(12),
+    VSS_AD_CLIENT_PLAYBACK_NONCE_KEY(13),
+    AD_TIME_ON_SCREEN(14),
+    AD_WATCH_TIME(15),
+    AD_INTERACTION_X(16),
+    AD_INTERACTION_Y(17),
+    AD_DISALLOWED_REASONS(18),
+    BLOCKING_ERROR(19),
+    ERROR_MESSAGE(20),
+    IMA_ERROR_CODE(21),
+    INTERNAL_ID(22),
+    YT_ERROR_CODE(23),
+    TIME_SINCE_LAST_AD_SEC(24),
+    AD_BLOCK(25),
+    MIDROLL_POS_SEC(26),
+    MIDROLL_POS_MS(47),
+    SLOT_POSITION(27),
+    BISCOTTI_ID(28),
+    REQUEST_TIME(29),
+    FLASH_VERSION(30),
+    IFRAME_STATE(31),
+    COMPANION_AD_TYPE(32),
+    USER_TIME_ZONE_OFFSET(33),
+    USER_HISTORY_LENGTH(34),
+    USER_BROWSER_ENABLED_JAVA(35),
+    USER_SCREEN_HEIGHT(36),
+    USER_SCREEN_WIDTH(37),
+    USER_SCREEN_AVAILABLE_HEIGHT(38),
+    USER_SCREEN_AVAILABLE_WIDTH(39),
+    USER_SCREEN_COLOR_DEPTH(40),
+    USER_BROWSER_NUM_PLUGINS(41),
+    USER_BROWSER_NUM_MIME_TYPES(42),
+    BREAK_TYPE(43),
+    LIVE_TARGETING_CONTEXT(44),
+    AUTONAV_STATE(45),
+    AD_BREAK_LENGTH(46),
+    ACTIVE_VIEW(48),
+    GOOGLE_VIEWABILITY(49),
+    THIRD_PARTY_VIEWABILITY(50),
+    DRIFT_FROM_HEAD_MS(51),
+    LIVE_INDEX(52),
+    YT_REMOTE(53);
+
+    public final int ac;
+
+    aixi(int i) {
+        this.ac = i;
+    }
+
+    @Override // defpackage.aihr
+    public final int getNumber() {
+        return this.ac;
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return Integer.toString(this.ac);
+    }
+}

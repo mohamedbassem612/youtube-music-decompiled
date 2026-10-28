@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="one">%d heure</item>
+        <item quantity="other">%d heures</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours_label">
+        <item quantity="one">heure</item>
+        <item quantity="other">heures</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes_label">
+        <item quantity="one">minute</item>
+        <item quantity="other">minutes</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="one">%d seconde</item>
+        <item quantity="other">%d secondes</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds_label">
+        <item quantity="one">seconde</item>
+        <item quantity="other">secondes</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="one">Ignorer l&apos;annonce dans %1$d seconde</item>
+        <item quantity="other">Ignorer l&apos;annonce dans %1$d secondes</item>
+    </plurals>
+    <plurals name="auto_playlist_with_episode_count_item_subtitle">
+        <item quantity="one">Liste de lecture automatique • %1$d épisode</item>
+        <item quantity="other">Liste de lecture automatique • %1$d épisodes</item>
+    </plurals>
+    <plurals name="auto_playlist_with_size_item_subtitle">
+        <item quantity="one">Liste de lecture automatique • %1$d chanson</item>
+        <item quantity="other">Liste de lecture automatique • %1$d chansons</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_down">
+        <item quantity="one">La vidéo est descendue de %1$d place</item>
+        <item quantity="other">La vidéo est descendue de %1$d places</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_up">
+        <item quantity="one">La vidéo est montée de %1$d place</item>
+        <item quantity="other">La vidéo est montée de %1$d places</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="one">%1$d heure</item>
+        <item quantity="other">%1$d heures</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="one">%s h</item>
+        <item quantity="other">%s h</item>
+    </plurals>
+    <plurals name="menu_option_hours">
+        <item quantity="one">%s heure</item>
+        <item quantity="other">%s heures</item>
+    </plurals>
+    <plurals name="menu_option_minutes">
+        <item quantity="one">%s minute</item>
+        <item quantity="other">%s minutes</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="one">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="music_duration_minutes">
+        <item quantity="one">%1$d minute</item>
+        <item quantity="other">%1$d minutes</item>
+    </plurals>
+    <plurals name="notification_offline_playlist_progress_track_count">
+        <item quantity="one">%1$d piste sur %2$d</item>
+        <item quantity="other">%1$d pistes sur %2$d</item>
+    </plurals>
+    <plurals name="offline_playlist_size">
+        <item quantity="one">%1$,d chanson</item>
+        <item quantity="other">%1$,d chansons</item>
+    </plurals>
+    <plurals name="offline_playlist_size_and_duration">
+        <item quantity="one">%1$,d chanson • %2$s</item>
+        <item quantity="other">%1$,d chansons • %2$s</item>
+    </plurals>
+    <plurals name="offline_podcast_playlist_size">
+        <item quantity="one">%1$,d épisode</item>
+        <item quantity="other">%1$,d épisodes</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_size_item_subtitle">
+        <item quantity="one">%1$s • %2$d chanson</item>
+        <item quantity="other">%1$s • %2$d chansons</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_track_count_item_subtitle">
+        <item quantity="one">%1$s • %2$d piste</item>
+        <item quantity="other">%1$s • %2$d pistes</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_size_item_subtitle">
+        <item quantity="one">Liste de lecture • %1$s • %2$d chanson</item>
+        <item quantity="other">Liste de lecture • %1$s • %2$d chansons</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_track_count_item_subtitle">
+        <item quantity="one">Liste de lecture • %1$s • %2$d piste</item>
+        <item quantity="other">Liste de lecture • %1$s • %2$d pistes</item>
+    </plurals>
+    <plurals name="podcast_episodes_count">
+        <item quantity="one">%1$d épisode</item>
+        <item quantity="other">%1$d épisodes</item>
+    </plurals>
+    <plurals name="podcast_with_entity_type_and_creator_and_episode_count_item_subtitle">
+        <item quantity="one">Balado • %1$s • %2$d épisode</item>
+        <item quantity="other">Balado • %1$s • %2$d épisodes</item>
+    </plurals>
+    <plurals name="pref_enable_smart_download_recent_music_summary">
+        <item quantity="one">Nous téléchargerons jusqu&apos;à %1$d de vos chansons écoutées récemment.</item>
+        <item quantity="other">Nous téléchargerons jusqu&apos;à %1$d de vos chansons écoutées récemment.</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">%1$d nouvelle notification</item>
+        <item quantity="other">%1$d nouvelles notifications</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="one">%d seconde</item>
+        <item quantity="other">%d secondes</item>
+    </plurals>
+    <plurals name="smart_downloads_details_header_byline_explanation">
+        <item quantity="one">%1$d chanson téléchargée intelligemment</item>
+        <item quantity="other">%1$d chansons téléchargées intelligemment</item>
+    </plurals>
+    <plurals name="smart_downloads_num_songs_estimated_space">
+        <item quantity="one">%1$d chanson (~%2$s)</item>
+        <item quantity="other">%1$d chansons (~%2$s)</item>
+    </plurals>
+    <plurals name="song_count">
+        <item quantity="one">%1$d chanson</item>
+        <item quantity="other">%1$d chansons</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="one">Revenez dans %1$d jour</item>
+        <item quantity="other">Revenez dans %1$d jours</item>
+    </plurals>
+    <plurals name="track_count">
+        <item quantity="one">%1$d piste</item>
+        <item quantity="other">%1$d pistes</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="one">Touchez deux fois à gauche ou à droite pour sauter %d seconde</item>
+        <item quantity="other">Touchez deux fois à gauche ou à droite pour sauter %d secondes</item>
+    </plurals>
+</resources>

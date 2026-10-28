@@ -1,0 +1,113 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes2.dex */
+public enum aixn implements aihr {
+    RENDERING_EVENT_TYPE_UNSPECIFIED(0),
+    RENDERING_EVENT_TYPE_THROTTLED(1),
+    RENDERING_EVENT_TYPE_SEGMENT_INSERTED_QUEUE_AHEAD(2),
+    RENDERING_EVENT_TYPE_SEGMENT_INSERTED_CURRENT_TIME(3),
+    RENDERING_EVENT_TYPE_SLOT_ENTRY_CONDITION_MET(4),
+    RENDERING_EVENT_TYPE_SEQUENCE_ITEM_AD_SELECTION_SUMMARY(5),
+    RENDERING_EVENT_TYPE_SEQUENCE_ITEM_AD_WT_INSERTION(6),
+    RENDERING_EVENT_TYPE_REEL_TSLA_UPDATE(7),
+    RENDERING_EVENT_TYPE_REEL_OSLA_UPDATE(8),
+    RENDERING_EVENT_TYPE_REEL_PLAYBACK_STATS_CONTROLLER_UPDATE(9),
+    RENDERING_EVENT_TYPE_RENDERING_API_INITIALIZED(10),
+    RENDERING_EVENT_TYPE_PARENT_OVERLAY_VISIBLE(11),
+    RENDERING_EVENT_TYPE_CLICK_TARGET_VISIBLE(12),
+    RENDERING_EVENT_TYPE_CLICK_TARGET_CLICKABLE(16),
+    RENDERING_EVENT_TYPE_CLICK_TARGET_CLICKED(13),
+    RENDERING_EVENT_TYPE_CLICK_TARGET_NOT_CLICKABLE(17),
+    RENDERING_EVENT_TYPE_CLICK_TARGET_NOT_VISIBLE(14),
+    RENDERING_EVENT_TYPE_PARENT_OVERLAY_NOT_VISIBLE(15),
+    RENDERING_EVENT_TYPE_REEL_OPPORTUNITY_ADS_RECEIVED(18),
+    RENDERING_EVENT_TYPE_PLAYER_OVERLAY_EXIT_EVENT(19),
+    RENDERING_EVENT_TYPE_REEL_AD_START_TSLA(20),
+    RENDERING_EVENT_TYPE_PHASE_AD_PLAYBACK_TRIGGER_EVENTS(21),
+    RENDERING_EVENT_TYPE_PHASE_AD_PLAYBACK_SCHEDULING_EVENTS(22),
+    RENDERING_EVENT_TYPE_PHASE_AD_ACTIVE_PLAYBACK_EVENTS(23),
+    RENDERING_EVENT_TYPE_PHASE_AD_PLAYBACK_TERMINATION_EVENTS(24),
+    RENDERING_EVENT_TYPE_AD_IMPRESSION_PING_SENT(25),
+    RENDERING_EVENT_TYPE_WN_EP_MEDIA_AD_PLAYBACK_STATE(26),
+    RENDERING_EVENT_TYPE_AD_ENTRY_BLOCKED(27);
+
+    public final int C;
+
+    aixn(int i) {
+        this.C = i;
+    }
+
+    public static aixn a(int i) {
+        switch (i) {
+            case 0:
+                return RENDERING_EVENT_TYPE_UNSPECIFIED;
+            case 1:
+                return RENDERING_EVENT_TYPE_THROTTLED;
+            case 2:
+                return RENDERING_EVENT_TYPE_SEGMENT_INSERTED_QUEUE_AHEAD;
+            case 3:
+                return RENDERING_EVENT_TYPE_SEGMENT_INSERTED_CURRENT_TIME;
+            case 4:
+                return RENDERING_EVENT_TYPE_SLOT_ENTRY_CONDITION_MET;
+            case 5:
+                return RENDERING_EVENT_TYPE_SEQUENCE_ITEM_AD_SELECTION_SUMMARY;
+            case 6:
+                return RENDERING_EVENT_TYPE_SEQUENCE_ITEM_AD_WT_INSERTION;
+            case 7:
+                return RENDERING_EVENT_TYPE_REEL_TSLA_UPDATE;
+            case 8:
+                return RENDERING_EVENT_TYPE_REEL_OSLA_UPDATE;
+            case 9:
+                return RENDERING_EVENT_TYPE_REEL_PLAYBACK_STATS_CONTROLLER_UPDATE;
+            case 10:
+                return RENDERING_EVENT_TYPE_RENDERING_API_INITIALIZED;
+            case 11:
+                return RENDERING_EVENT_TYPE_PARENT_OVERLAY_VISIBLE;
+            case 12:
+                return RENDERING_EVENT_TYPE_CLICK_TARGET_VISIBLE;
+            case 13:
+                return RENDERING_EVENT_TYPE_CLICK_TARGET_CLICKED;
+            case 14:
+                return RENDERING_EVENT_TYPE_CLICK_TARGET_NOT_VISIBLE;
+            case 15:
+                return RENDERING_EVENT_TYPE_PARENT_OVERLAY_NOT_VISIBLE;
+            case 16:
+                return RENDERING_EVENT_TYPE_CLICK_TARGET_CLICKABLE;
+            case 17:
+                return RENDERING_EVENT_TYPE_CLICK_TARGET_NOT_CLICKABLE;
+            case 18:
+                return RENDERING_EVENT_TYPE_REEL_OPPORTUNITY_ADS_RECEIVED;
+            case 19:
+                return RENDERING_EVENT_TYPE_PLAYER_OVERLAY_EXIT_EVENT;
+            case 20:
+                return RENDERING_EVENT_TYPE_REEL_AD_START_TSLA;
+            case 21:
+                return RENDERING_EVENT_TYPE_PHASE_AD_PLAYBACK_TRIGGER_EVENTS;
+            case 22:
+                return RENDERING_EVENT_TYPE_PHASE_AD_PLAYBACK_SCHEDULING_EVENTS;
+            case 23:
+                return RENDERING_EVENT_TYPE_PHASE_AD_ACTIVE_PLAYBACK_EVENTS;
+            case 24:
+                return RENDERING_EVENT_TYPE_PHASE_AD_PLAYBACK_TERMINATION_EVENTS;
+            case 25:
+                return RENDERING_EVENT_TYPE_AD_IMPRESSION_PING_SENT;
+            case 26:
+                return RENDERING_EVENT_TYPE_WN_EP_MEDIA_AD_PLAYBACK_STATE;
+            case 27:
+                return RENDERING_EVENT_TYPE_AD_ENTRY_BLOCKED;
+            default:
+                return null;
+        }
+    }
+
+    @Override // defpackage.aihr
+    public final int getNumber() {
+        return this.C;
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return Integer.toString(this.C);
+    }
+}

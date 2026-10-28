@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingTop="9dp"
+    android:paddingBottom="9dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:layout_marginStart="11dp">
+    <TextView
+        android:textColor="?attr/ytCallToAction"
+        android:layout_gravity="center"
+        android:id="@+id/collapsed_title_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="?attr/ytTextAppearanceBody2b"/>
+</LinearLayout>

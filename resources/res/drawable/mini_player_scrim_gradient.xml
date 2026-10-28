@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="72dp"
+    android:width="1dp"
+    android:viewportWidth="1"
+    android:viewportHeight="72">
+    <path
+        android:fillColor="@drawable/_mini_player_scrim_gradient__0_res_0x7f08000d"
+        android:pathData="M0,0H1V72H0Z"/>
+</vector>

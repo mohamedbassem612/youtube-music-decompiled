@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.common.ui.YouTubeTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto"
+    android:textSize="@dimen/small_font_size"
+    android:textColor="#1b7fcc"
+    android:gravity="center"
+    android:id="@+id/link_item"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/yt_sys_measurement_size_legend"
+    android:maxLines="1"
+    android:textAllCaps="true"
+    yt:robotoFont="regular"/>

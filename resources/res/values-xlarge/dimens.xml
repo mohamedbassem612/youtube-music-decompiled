@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_dialog_min_width_major">45%</dimen>
+    <dimen name="abc_dialog_min_width_minor">72%</dimen>
+    <dimen name="app_widget_max_width">439dp</dimen>
+    <dimen name="app_widget_minimum_width">245dp</dimen>
+    <dimen name="app_widget_now_playing_resizable_max_height">500dp</dimen>
+    <dimen name="app_widget_resizable_minimum_width">245dp</dimen>
+    <dimen name="app_widget_two_row_minimum_height">184dp</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:gravity="fill"
+        android:height="22dp"
+        android:width="22dp"
+        android:top="3dp"
+        android:bottom="3dp">
+        <bitmap
+            android:src="@drawable/yt_outline_experimental_shuffle_black_24"
+            android:tint="?attr/colorControlNormal"
+            android:alpha="@dimen/disabled_icon_alpha"/>
+    </item>
+</layer-list>

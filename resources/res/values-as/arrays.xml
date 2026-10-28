@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>নিম্ন</item>
+        <item>সাধাৰণ</item>
+        <item>উচ্চ</item>
+        <item>সদায় উচ্চখাপৰ</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>৫ ছেকেণ্ড</item>
+        <item>১০ ছেকেণ্ড</item>
+        <item>১৫ ছেকেণ্ড</item>
+        <item>২০ ছেকেণ্ড</item>
+        <item>৩০ ছেকেণ্ড</item>
+        <item>৬০ ছেকেণ্ড</item>
+    </array>
+</resources>

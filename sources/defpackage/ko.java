@@ -1,0 +1,112 @@
+package defpackage;
+
+import android.R;
+import android.graphics.Bitmap;
+import android.graphics.BitmapShader;
+import android.graphics.Shader;
+import android.graphics.drawable.AnimationDrawable;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.ClipDrawable;
+import android.graphics.drawable.Drawable;
+import android.graphics.drawable.LayerDrawable;
+import android.graphics.drawable.ShapeDrawable;
+import android.graphics.drawable.shapes.RoundRectShape;
+import android.util.AttributeSet;
+import android.widget.ProgressBar;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: classes3.dex */
+class ko {
+    private static final int[] b = {R.attr.indeterminateDrawable, R.attr.progressDrawable};
+    public Bitmap a;
+    private final ProgressBar c;
+
+    public ko(ProgressBar progressBar) {
+        this.c = progressBar;
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    /* JADX WARN: Type inference failed for: r7v1, types: [android.graphics.drawable.Drawable, android.graphics.drawable.ShapeDrawable] */
+    /* JADX WARN: Type inference failed for: r7v2 */
+    /* JADX WARN: Type inference failed for: r7v3, types: [android.graphics.drawable.LayerDrawable] */
+    /* JADX WARN: Type inference failed for: r8v0, types: [android.graphics.drawable.Drawable] */
+    /* JADX WARN: Type inference failed for: r8v5, types: [android.graphics.drawable.Drawable] */
+    final Drawable a(Drawable drawable, boolean z) {
+        ?? shapeDrawable;
+        if (drawable instanceof awh) {
+            awh awhVar = (awh) drawable;
+            Drawable drawableA = awhVar.a();
+            if (drawableA == null) {
+                return drawable;
+            }
+            a(drawableA, z);
+            awhVar.b();
+            return drawable;
+        }
+        if (drawable instanceof LayerDrawable) {
+            LayerDrawable layerDrawable = (LayerDrawable) drawable;
+            int numberOfLayers = layerDrawable.getNumberOfLayers();
+            Drawable[] drawableArr = new Drawable[numberOfLayers];
+            for (int i = 0; i < numberOfLayers; i++) {
+                int id = layerDrawable.getId(i);
+                drawableArr[i] = a(layerDrawable.getDrawable(i), id == 16908301 || id == 16908303);
+            }
+            shapeDrawable = new LayerDrawable(drawableArr);
+            for (int i2 = 0; i2 < numberOfLayers; i2++) {
+                shapeDrawable.setId(i2, layerDrawable.getId(i2));
+                shapeDrawable.setLayerGravity(i2, layerDrawable.getLayerGravity(i2));
+                shapeDrawable.setLayerWidth(i2, layerDrawable.getLayerWidth(i2));
+                shapeDrawable.setLayerHeight(i2, layerDrawable.getLayerHeight(i2));
+                shapeDrawable.setLayerInsetLeft(i2, layerDrawable.getLayerInsetLeft(i2));
+                shapeDrawable.setLayerInsetRight(i2, layerDrawable.getLayerInsetRight(i2));
+                shapeDrawable.setLayerInsetTop(i2, layerDrawable.getLayerInsetTop(i2));
+                shapeDrawable.setLayerInsetBottom(i2, layerDrawable.getLayerInsetBottom(i2));
+                shapeDrawable.setLayerInsetStart(i2, layerDrawable.getLayerInsetStart(i2));
+                shapeDrawable.setLayerInsetEnd(i2, layerDrawable.getLayerInsetEnd(i2));
+            }
+        } else {
+            if (!(drawable instanceof BitmapDrawable)) {
+                return drawable;
+            }
+            BitmapDrawable bitmapDrawable = (BitmapDrawable) drawable;
+            Bitmap bitmap = bitmapDrawable.getBitmap();
+            if (this.a == null) {
+                this.a = bitmap;
+            }
+            shapeDrawable = new ShapeDrawable(new RoundRectShape(new float[]{5.0f, 5.0f, 5.0f, 5.0f, 5.0f, 5.0f, 5.0f, 5.0f}, null, null));
+            shapeDrawable.getPaint().setShader(new BitmapShader(bitmap, Shader.TileMode.REPEAT, Shader.TileMode.CLAMP));
+            shapeDrawable.getPaint().setColorFilter(bitmapDrawable.getPaint().getColorFilter());
+            if (z) {
+                return new ClipDrawable(shapeDrawable, 3, 1);
+            }
+        }
+        return shapeDrawable;
+    }
+
+    public void b(AttributeSet attributeSet, int i) {
+        ProgressBar progressBar = this.c;
+        ahto ahtoVarL = ahto.L(progressBar.getContext(), attributeSet, b, i, 0);
+        Drawable drawableC = ahtoVarL.C(0);
+        if (drawableC != null) {
+            if (drawableC instanceof AnimationDrawable) {
+                AnimationDrawable animationDrawable = (AnimationDrawable) drawableC;
+                int numberOfFrames = animationDrawable.getNumberOfFrames();
+                AnimationDrawable animationDrawable2 = new AnimationDrawable();
+                animationDrawable2.setOneShot(animationDrawable.isOneShot());
+                for (int i2 = 0; i2 < numberOfFrames; i2++) {
+                    Drawable drawableA = a(animationDrawable.getFrame(i2), true);
+                    drawableA.setLevel(10000);
+                    animationDrawable2.addFrame(drawableA, animationDrawable.getDuration(i2));
+                }
+                animationDrawable2.setLevel(10000);
+                drawableC = animationDrawable2;
+            }
+            progressBar.setIndeterminateDrawable(drawableC);
+        }
+        Drawable drawableC2 = ahtoVarL.C(1);
+        if (drawableC2 != null) {
+            progressBar.setProgressDrawable(a(drawableC2, false));
+        }
+        ahtoVarL.F();
+    }
+}

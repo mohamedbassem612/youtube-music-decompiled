@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>କମ୍</item>
+        <item>ସାଧାରଣ</item>
+        <item>ଉଚ୍ଚ</item>
+        <item>ସର୍ବଦା ଉଚ୍ଚ</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>5 ସେକେଣ୍ଡ</item>
+        <item>10 ସେକେଣ୍ଡ</item>
+        <item>15 ସେକେଣ୍ଡ</item>
+        <item>20 ସେକେଣ୍ଡ</item>
+        <item>30 ସେକେଣ୍ଡ</item>
+        <item>60 ସେକେଣ୍ଡ</item>
+    </array>
+</resources>

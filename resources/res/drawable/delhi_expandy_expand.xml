@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="@dimen/shorts_edit_tool_button_drawable_icon_size"
+    android:width="@dimen/shorts_edit_tool_button_drawable_icon_size"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <group
+        android:name="delhi_chevron"
+        android:pivotX="12"
+        android:pivotY="12"
+        android:scaleY="1">
+        <path
+            android:fillColor="@android:color/white"
+            android:pathData="M18.707,8.793a1,1 0,0 0,-1.414 0L12,14.086 6.707,8.793a1,1 0,1 0,-1.414 1.414L12,16.914l6.707,-6.707a1,1 0,0 0,0 -1.414Z"/>
+    </group>
+</vector>

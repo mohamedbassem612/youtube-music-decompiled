@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="one">%d ሰዓት</item>
+        <item quantity="other">%d ሰዓቶች</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours_label">
+        <item quantity="one">ሰዓት</item>
+        <item quantity="other">ሰዓታት</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="one">%d ደቂቃ</item>
+        <item quantity="other">%d ደቂቃዎች</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes_label">
+        <item quantity="one">ደቂቃ</item>
+        <item quantity="other">ደቂቃዎች</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="one">%d ሰከንድ</item>
+        <item quantity="other">%d ሰከንዶች</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds_label">
+        <item quantity="one">ሰከንድ</item>
+        <item quantity="other">ሰከንዶች</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="one">ማስታወቂያ በ%1$d ሰከንድ ውስጥ ይዝለሉ</item>
+        <item quantity="other">ማስታወቂያ በ%1$d ሰከንዶች ውስጥ ይዝለሉ</item>
+    </plurals>
+    <plurals name="auto_playlist_with_episode_count_item_subtitle">
+        <item quantity="one">ራስ-አጫዋች ዝርዝር • %1$d የትዕይንት ክፍል</item>
+        <item quantity="other">ራስ-አጫዋች ዝርዝር • %1$d የትዕይንት ክፍሎች</item>
+    </plurals>
+    <plurals name="auto_playlist_with_size_item_subtitle">
+        <item quantity="one">ራስሰር አጫዋች ዝርዝር • %1$d ዘፈን</item>
+        <item quantity="other">ራስሰር አጫዋች ዝርዝር • %1$d ዘፈኖች</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_down">
+        <item quantity="one">ቪድዮ %1$d ቦታ ወደ ታች ዝቅ ብሏል</item>
+        <item quantity="other">ቪድዮ %1$d ቦታዎች ወደ ታች ዝቅ ብሏል</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_up">
+        <item quantity="one">ቪድዮ %1$d ቦታ ወደ ላይ ከፍ ብሏል</item>
+        <item quantity="other">ቪድዮ %1$d ቦታዎች ወደ ላይ ከፍ ብሏል</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="one">%1$d ሰዓት</item>
+        <item quantity="other">%1$d ሰዓቶች</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="one">%s ሰዓ</item>
+        <item quantity="other">%s ሰዓ</item>
+    </plurals>
+    <plurals name="menu_option_hours">
+        <item quantity="one">%s ሰዓታት</item>
+        <item quantity="other">%s ሰዓታት</item>
+    </plurals>
+    <plurals name="menu_option_minutes">
+        <item quantity="one">%s ደቂቃ</item>
+        <item quantity="other">%s ደቂቃዎች</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="one">%s ደቂቃ</item>
+        <item quantity="other">%s ደቂቃ</item>
+    </plurals>
+    <plurals name="music_duration_minutes">
+        <item quantity="one">%1$d ደቂቃ</item>
+        <item quantity="other">%1$d ደቂቃዎች</item>
+    </plurals>
+    <plurals name="notification_offline_playlist_progress_track_count">
+        <item quantity="one">%1$d ከ%2$d ትራክ</item>
+        <item quantity="other">%1$d ከ%2$d ትራኮች</item>
+    </plurals>
+    <plurals name="offline_playlist_size">
+        <item quantity="one">%1$,d ዘፈን</item>
+        <item quantity="other">%1$,d ዘፈኖች</item>
+    </plurals>
+    <plurals name="offline_playlist_size_and_duration">
+        <item quantity="one">%1$,d ዘፈን • %2$s</item>
+        <item quantity="other">%1$,d ዘፈኖች • %2$s</item>
+    </plurals>
+    <plurals name="offline_podcast_playlist_size">
+        <item quantity="one">%1$,d የትዕይንት ክፍል</item>
+        <item quantity="other">%1$,d የትዕይንት ክፍሎች</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_size_item_subtitle">
+        <item quantity="one">%1$s • %2$d ዘፈኖች</item>
+        <item quantity="other">%1$s • %2$d ዘፈኖች</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_track_count_item_subtitle">
+        <item quantity="one">%1$s • %2$d ትራክ</item>
+        <item quantity="other">%1$s • %2$d ትራኮች</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_size_item_subtitle">
+        <item quantity="one">አጫዋች ዝርዝር • %1$s • %2$d ዘፈኖች</item>
+        <item quantity="other">አጫዋች ዝርዝር • %1$s • %2$d ዘፈኖች</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_track_count_item_subtitle">
+        <item quantity="one">አጫዋች ዝርዝር • %1$s • %2$d ትራክ</item>
+        <item quantity="other">አጫዋች ዝርዝር • %1$s • %2$d ትራኮች</item>
+    </plurals>
+    <plurals name="podcast_episodes_count">
+        <item quantity="one">%1$d የትዕይንት ክፍል</item>
+        <item quantity="other">%1$d የትዕይንት ክፍሎች</item>
+    </plurals>
+    <plurals name="podcast_with_entity_type_and_creator_and_episode_count_item_subtitle">
+        <item quantity="one">የፖድካስት • %1$s • %2$d የትዕይንት ክፍል</item>
+        <item quantity="other">የፖድካስት • %1$s • %2$d የትዕይንት ክፍሎች</item>
+    </plurals>
+    <plurals name="pref_enable_smart_download_recent_music_summary">
+        <item quantity="one">በቅርቡ ከተጫወቱ ዘፈኖችዎ ውስጥ እስከ %1$d ድረስ እናወርዳለን።</item>
+        <item quantity="other">በቅርቡ ከተጫወቱ ዘፈኖችዎ ውስጥ እስከ %1$d ድረስ እናወርዳለን።</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">You have a notification</item>
+        <item quantity="other">%1$d new notifications</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="one">%d ሰከንድ</item>
+        <item quantity="other">%d ሰከንዶች</item>
+    </plurals>
+    <plurals name="smart_downloads_details_header_byline_explanation">
+        <item quantity="one">%1$d ዘፈን በዘመናዊ መልኩ ወርዷል</item>
+        <item quantity="other">%1$d ዘፈኖች በዘመናዊ መልኩ ወርደዋል</item>
+    </plurals>
+    <plurals name="smart_downloads_num_songs_estimated_space">
+        <item quantity="one">%1$d ዘፈን (~%2$s)</item>
+        <item quantity="other">%1$d ዘፈኖች (~%2$s)</item>
+    </plurals>
+    <plurals name="song_count">
+        <item quantity="one">%1$d ዘፈን</item>
+        <item quantity="other">%1$d ዘፈኖች</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="one">በ%1$d ቀን ውስጥ ይመልሱ</item>
+        <item quantity="other">በ%1$d ቀናት ውስጥ ይመልሱ</item>
+    </plurals>
+    <plurals name="track_count">
+        <item quantity="one">%1$d ትራክ</item>
+        <item quantity="other">%1$d ትራኮች</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="one">%d ሰከንድ ለመዝለል ግራ ወይም ቀኝ ላይ ሁለት ጊዜ መታ ያድርጉ</item>
+        <item quantity="other">%d ሰከንዶች ለመዝለል ግራ ወይም ቀኝ ላይ ሁለት ጊዜ መታ ያድርጉ</item>
+    </plurals>
+</resources>

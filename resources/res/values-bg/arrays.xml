@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>Ниско</item>
+        <item>Нормално</item>
+        <item>Високо</item>
+        <item>Винаги високо</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>5 секунди</item>
+        <item>10 секунди</item>
+        <item>15 секунди</item>
+        <item>20 секунди</item>
+        <item>30 секунди</item>
+        <item>60 секунди</item>
+    </array>
+</resources>

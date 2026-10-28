@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="one">%d Stunde</item>
+        <item quantity="other">%d Stunden</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours_label">
+        <item quantity="one">Stunde</item>
+        <item quantity="other">Stunden</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="one">%d Minute</item>
+        <item quantity="other">%d Minuten</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes_label">
+        <item quantity="one">Minute</item>
+        <item quantity="other">Minuten</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="one">%d Sekunde</item>
+        <item quantity="other">%d Sekunden</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds_label">
+        <item quantity="one">Sekunde</item>
+        <item quantity="other">Sekunden</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="one">Werbung in 1 Sekunde überspringen</item>
+        <item quantity="other">Werbung in %1$d Sekunden überspringen</item>
+    </plurals>
+    <plurals name="auto_playlist_with_episode_count_item_subtitle">
+        <item quantity="one">Automatische Playlist • 1 Folge</item>
+        <item quantity="other">Automatische Playlist • %1$d Folgen</item>
+    </plurals>
+    <plurals name="auto_playlist_with_size_item_subtitle">
+        <item quantity="one">Autom. Playlist • 1 Titel</item>
+        <item quantity="other">Autom. Playlist • %1$d Titel</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_down">
+        <item quantity="one">Video ist %d Platz abgestiegen</item>
+        <item quantity="other">Video ist %1$d Plätze abgestiegen</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_up">
+        <item quantity="one">Video ist %d Platz aufgestiegen</item>
+        <item quantity="other">Video ist %1$d Plätze aufgestiegen</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="one">%1$d Stunde</item>
+        <item quantity="other">%1$d Stunden</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="one">%s h</item>
+        <item quantity="other">%s h</item>
+    </plurals>
+    <plurals name="menu_option_hours">
+        <item quantity="one">%s Stunde</item>
+        <item quantity="other">%s Stunden</item>
+    </plurals>
+    <plurals name="menu_option_minutes">
+        <item quantity="one">%s Minute</item>
+        <item quantity="other">%s Minuten</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="one">%s min</item>
+        <item quantity="other">%s min</item>
+    </plurals>
+    <plurals name="music_duration_minutes">
+        <item quantity="one">%1$d Minute</item>
+        <item quantity="other">%1$d Minuten</item>
+    </plurals>
+    <plurals name="notification_offline_playlist_progress_track_count">
+        <item quantity="one">%1$d von 1 Titel</item>
+        <item quantity="other">%1$d von %2$d Titeln</item>
+    </plurals>
+    <plurals name="offline_playlist_size">
+        <item quantity="one">1 Titel</item>
+        <item quantity="other">%1$,d Titel</item>
+    </plurals>
+    <plurals name="offline_playlist_size_and_duration">
+        <item quantity="one">1 Titel • %2$s</item>
+        <item quantity="other">%1$,d Titel • %2$s</item>
+    </plurals>
+    <plurals name="offline_podcast_playlist_size">
+        <item quantity="one">1 Folge</item>
+        <item quantity="other">%1$,d Folgen</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_size_item_subtitle">
+        <item quantity="one">%1$s • 1 Song</item>
+        <item quantity="other">%1$s • %2$d Songs</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_track_count_item_subtitle">
+        <item quantity="one">%1$s • 1 Titel</item>
+        <item quantity="other">%1$s • %2$d Titel</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_size_item_subtitle">
+        <item quantity="one">Playlist • %1$s • 1 Titel</item>
+        <item quantity="other">Playlist • %1$s • %2$d Titel</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_track_count_item_subtitle">
+        <item quantity="one">Playlist • %1$s • 1 Titel</item>
+        <item quantity="other">Playlist • %1$s • %2$d Titel</item>
+    </plurals>
+    <plurals name="podcast_episodes_count">
+        <item quantity="one">1 Folge</item>
+        <item quantity="other">%1$d Folgen</item>
+    </plurals>
+    <plurals name="podcast_with_entity_type_and_creator_and_episode_count_item_subtitle">
+        <item quantity="one">Podcast • %1$s • 1 Folge</item>
+        <item quantity="other">Podcast • %1$s • %2$d Folgen</item>
+    </plurals>
+    <plurals name="pref_enable_smart_download_recent_music_summary">
+        <item quantity="one">Es werden bis zu %1$d deiner zuletzt abgespielten Titel heruntergeladen.</item>
+        <item quantity="other">Es werden bis zu %1$d deiner zuletzt abgespielten Titel heruntergeladen.</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">Du hast eine Benachrichtigung.</item>
+        <item quantity="other">%1$d neue Benachrichtigungen</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="one">%d Sekunde</item>
+        <item quantity="other">%d Sekunden</item>
+    </plurals>
+    <plurals name="smart_downloads_details_header_byline_explanation">
+        <item quantity="one">%1$d Titel per Smart-Download heruntergeladen</item>
+        <item quantity="other">%1$d Titel per Smart-Download heruntergeladen</item>
+    </plurals>
+    <plurals name="smart_downloads_num_songs_estimated_space">
+        <item quantity="one">%1$d Titel (~%2$s)</item>
+        <item quantity="other">%1$d Titel (~%2$s)</item>
+    </plurals>
+    <plurals name="song_count">
+        <item quantity="one">1 Song</item>
+        <item quantity="other">%1$d Songs</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="one">In 1 Tag wieder verfügbar</item>
+        <item quantity="other">In %1$d Tagen wieder verfügbar</item>
+    </plurals>
+    <plurals name="track_count">
+        <item quantity="one">1 Titel</item>
+        <item quantity="other">%1$d Titel</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="one">Links oder rechts doppeltippen, um %d Sekunde zu überspringen</item>
+        <item quantity="other">Links oder rechts doppeltippen, um %d Sekunden zu überspringen</item>
+    </plurals>
+</resources>

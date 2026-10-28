@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="one">%d година</item>
+        <item quantity="few">%d години</item>
+        <item quantity="many">%d годин</item>
+        <item quantity="other">%d години</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours_label">
+        <item quantity="one">година</item>
+        <item quantity="few">години</item>
+        <item quantity="many">годин</item>
+        <item quantity="other">години</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="one">%d хвилина</item>
+        <item quantity="few">%d хвилини</item>
+        <item quantity="many">%d хвилин</item>
+        <item quantity="other">%d хвилини</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes_label">
+        <item quantity="one">хвилина</item>
+        <item quantity="few">хвилини</item>
+        <item quantity="many">хвилин</item>
+        <item quantity="other">хвилини</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунди</item>
+        <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунди</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds_label">
+        <item quantity="one">секунда</item>
+        <item quantity="few">секунди</item>
+        <item quantity="many">секунд</item>
+        <item quantity="other">секунди</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="one">Пропустити рекламу за %1$d секунду</item>
+        <item quantity="few">Пропустити рекламу за %1$d секунди</item>
+        <item quantity="many">Пропустити рекламу за %1$d секунд</item>
+        <item quantity="other">Пропустити рекламу за %1$d секунди</item>
+    </plurals>
+    <plurals name="auto_playlist_with_episode_count_item_subtitle">
+        <item quantity="one">Автоматичний список відтворення • %1$d серія</item>
+        <item quantity="few">Автоматичний список відтворення • %1$d серії</item>
+        <item quantity="many">Автоматичний список відтворення • %1$d серій</item>
+        <item quantity="other">Автоматичний список відтворення • %1$d серії</item>
+    </plurals>
+    <plurals name="auto_playlist_with_size_item_subtitle">
+        <item quantity="one">Автоматичний список відтворення • %1$d композиція</item>
+        <item quantity="few">Автоматичний список відтворення • %1$d композиції</item>
+        <item quantity="many">Автоматичний список відтворення • %1$d композицій</item>
+        <item quantity="other">Автоматичний список відтворення • %1$d композиції</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_down">
+        <item quantity="one">Відео опустилося на %1$d позицію</item>
+        <item quantity="few">Відео опустилося на %1$d позиції</item>
+        <item quantity="many">Відео опустилося на %1$d позицій</item>
+        <item quantity="other">Відео опустилося на %1$d позиції</item>
+    </plurals>
+    <plurals name="collaborative_playlist_voted_video_moved_up">
+        <item quantity="one">Відео піднялося на %1$d позицію</item>
+        <item quantity="few">Відео піднялося на %1$d позиції</item>
+        <item quantity="many">Відео піднялося на %1$d позицій</item>
+        <item quantity="other">Відео піднялося на %1$d позиції</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="one">%1$d година</item>
+        <item quantity="few">%1$d години</item>
+        <item quantity="many">%1$d годин</item>
+        <item quantity="other">%1$d години</item>
+    </plurals>
+    <plurals name="hours_abbreviated">
+        <item quantity="one">%s год</item>
+        <item quantity="few">%s год</item>
+        <item quantity="many">%s год</item>
+        <item quantity="other">%s год</item>
+    </plurals>
+    <plurals name="menu_option_hours">
+        <item quantity="one">%s година</item>
+        <item quantity="few">%s години</item>
+        <item quantity="many">%s годин</item>
+        <item quantity="other">%s години</item>
+    </plurals>
+    <plurals name="menu_option_minutes">
+        <item quantity="one">%s хвилина</item>
+        <item quantity="few">%s хвилини</item>
+        <item quantity="many">%s хвилин</item>
+        <item quantity="other">%s хвилини</item>
+    </plurals>
+    <plurals name="minutes_abbreviated">
+        <item quantity="one">%s хв</item>
+        <item quantity="few">%s хв</item>
+        <item quantity="many">%s хв</item>
+        <item quantity="other">%s хв</item>
+    </plurals>
+    <plurals name="music_duration_minutes">
+        <item quantity="one">%1$d хвилина</item>
+        <item quantity="few">%1$d хвилини</item>
+        <item quantity="many">%1$d хвилин</item>
+        <item quantity="other">%1$d хвилини</item>
+    </plurals>
+    <plurals name="notification_offline_playlist_progress_track_count">
+        <item quantity="one">%1$d з %2$d композиції</item>
+        <item quantity="few">%1$d з %2$d композицій</item>
+        <item quantity="many">%1$d з %2$d композицій</item>
+        <item quantity="other">%1$d з %2$d композиції</item>
+    </plurals>
+    <plurals name="offline_playlist_size">
+        <item quantity="one">%1$,d композиція</item>
+        <item quantity="few">%1$,d композиції</item>
+        <item quantity="many">%1$,d композицій</item>
+        <item quantity="other">%1$,d композиції</item>
+    </plurals>
+    <plurals name="offline_playlist_size_and_duration">
+        <item quantity="one">%1$,d композиція • %2$s</item>
+        <item quantity="few">%1$,d композиції • %2$s</item>
+        <item quantity="many">%1$,d композицій • %2$s</item>
+        <item quantity="other">%1$,d композиції • %2$s</item>
+    </plurals>
+    <plurals name="offline_podcast_playlist_size">
+        <item quantity="one">%1$,d серія</item>
+        <item quantity="few">%1$,d серії</item>
+        <item quantity="many">%1$,d серій</item>
+        <item quantity="other">%1$,d серії</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_size_item_subtitle">
+        <item quantity="one">%1$s • %2$d композиція</item>
+        <item quantity="few">%1$s • %2$d композиції</item>
+        <item quantity="many">%1$s • %2$d композицій</item>
+        <item quantity="other">%1$s • %2$d композиції</item>
+    </plurals>
+    <plurals name="playlist_with_creator_and_track_count_item_subtitle">
+        <item quantity="one">%1$s • %2$d композиція</item>
+        <item quantity="few">%1$s • %2$d композиції</item>
+        <item quantity="many">%1$s • %2$d композицій</item>
+        <item quantity="other">%1$s • %2$d композиції</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_size_item_subtitle">
+        <item quantity="one">Список відтворення • %1$s • %2$d композиція</item>
+        <item quantity="few">Список відтворення • %1$s • %2$d композиції</item>
+        <item quantity="many">Список відтворення • %1$s • %2$d композицій</item>
+        <item quantity="other">Список відтворення • %1$s • %2$d композиції</item>
+    </plurals>
+    <plurals name="playlist_with_entity_type_and_creator_and_track_count_item_subtitle">
+        <item quantity="one">Список відтворення • %1$s • %2$d композиція</item>
+        <item quantity="few">Список відтворення • %1$s • %2$d композиції</item>
+        <item quantity="many">Список відтворення • %1$s • %2$d композицій</item>
+        <item quantity="other">Список відтворення • %1$s • %2$d композиції</item>
+    </plurals>
+    <plurals name="podcast_episodes_count">
+        <item quantity="one">%1$d серія</item>
+        <item quantity="few">%1$d серії</item>
+        <item quantity="many">%1$d серій</item>
+        <item quantity="other">%1$d серії</item>
+    </plurals>
+    <plurals name="podcast_with_entity_type_and_creator_and_episode_count_item_subtitle">
+        <item quantity="one">Подкаст • %1$s • %2$d серія</item>
+        <item quantity="few">Подкаст • %1$s • %2$d серії</item>
+        <item quantity="many">Подкаст • %1$s • %2$d серій</item>
+        <item quantity="other">Подкаст • %1$s • %2$d серії</item>
+    </plurals>
+    <plurals name="pref_enable_smart_download_recent_music_summary">
+        <item quantity="one">Ми завантажимо щонайбільше %1$d нещодавно відтворену пісню.</item>
+        <item quantity="few">Ми завантажимо щонайбільше %1$d нещодавно відтворені пісні.</item>
+        <item quantity="many">Ми завантажимо щонайбільше %1$d нещодавно відтворених пісень.</item>
+        <item quantity="other">Ми завантажимо щонайбільше %1$d нещодавно відтворені пісні.</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">%1$d нове сповіщення</item>
+        <item quantity="few">%1$d нові сповіщення</item>
+        <item quantity="many">%1$d нових сповіщень</item>
+        <item quantity="other">%1$d нового сповіщення</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунди</item>
+        <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунди</item>
+    </plurals>
+    <plurals name="smart_downloads_details_header_byline_explanation">
+        <item quantity="one">Автоматично завантажено %1$d пісню</item>
+        <item quantity="few">Автоматично завантажено %1$d пісні</item>
+        <item quantity="many">Автоматично завантажено %1$d пісень</item>
+        <item quantity="other">Автоматично завантажено %1$d пісні</item>
+    </plurals>
+    <plurals name="smart_downloads_num_songs_estimated_space">
+        <item quantity="one">%1$d композиція (~%2$s)</item>
+        <item quantity="few">%1$d композиції (~%2$s)</item>
+        <item quantity="many">%1$d композицій (~%2$s)</item>
+        <item quantity="other">%1$d композиції (~%2$s)</item>
+    </plurals>
+    <plurals name="song_count">
+        <item quantity="one">%1$d пісня</item>
+        <item quantity="few">%1$d пісні</item>
+        <item quantity="many">%1$d пісень</item>
+        <item quantity="other">%1$d пісні</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="one">Спробуйте через %1$d день</item>
+        <item quantity="few">Спробуйте через %1$d дні</item>
+        <item quantity="many">Спробуйте через %1$d днів</item>
+        <item quantity="other">Спробуйте через %1$d дня</item>
+    </plurals>
+    <plurals name="track_count">
+        <item quantity="one">%1$d композиція</item>
+        <item quantity="few">%1$d композиції</item>
+        <item quantity="many">%1$d композицій</item>
+        <item quantity="other">%1$d композиції</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="one">Двічі торкніться ліворуч або праворуч, щоб перемотати на %d секунду назад чи вперед</item>
+        <item quantity="few">Двічі торкніться ліворуч або праворуч, щоб перемотати на %d секунди назад чи вперед</item>
+        <item quantity="many">Двічі торкніться ліворуч або праворуч, щоб перемотати на %d секунд назад чи вперед</item>
+        <item quantity="other">Двічі торкніться ліворуч або праворуч, щоб перемотати на %d секунди назад чи вперед</item>
+    </plurals>
+</resources>

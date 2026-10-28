@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.YouTube.ElementsDialogFullScreen" parent="@style/Base.Theme.YouTube.ElementsDialogFullScreen">
+        <item name="android:windowLayoutInDisplayCutoutMode">3</item>
+    </style>
+</resources>

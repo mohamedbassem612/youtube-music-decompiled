@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:id="@+id/avatar_container"
+    android:background="@drawable/sticker_style_1_circle_icon"
+    android:padding="2dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:layout_gravity="center"
+        android:id="@+id/avatar_circle_background"
+        android:background="@drawable/sticker_style_1_circle_icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.google.android.libraries.youtube.common.ui.CircularImageView
+        android:layout_gravity="center"
+        android:id="@+id/avatar_circle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="end|center_vertical"
+        android:orientation="horizontal"
+        android:background="?attr/ytBaseBackground"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp">
+        <ImageButton
+            android:id="@+id/close_button"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/yt_outline_x_vd_theme_24"
+            android:tint="?android:attr/colorForeground"
+            android:contentDescription="@string/accessibility_close_dialog"/>
+    </LinearLayout>
+    <View
+        android:id="@+id/bottom_divider"
+        android:background="?attr/ytSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</LinearLayout>

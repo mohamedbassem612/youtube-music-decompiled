@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>Χαμηλή</item>
+        <item>Κανονική</item>
+        <item>Υψηλή</item>
+        <item>Πάντα υψηλή</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>5 δευτερόλεπτα</item>
+        <item>10 δευτερόλεπτα</item>
+        <item>15 δευτερόλεπτα</item>
+        <item>20 δευτερόλεπτα</item>
+        <item>30 δευτερόλεπτα</item>
+        <item>60 δευτερόλεπτα</item>
+    </array>
+</resources>

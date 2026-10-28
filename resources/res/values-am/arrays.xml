@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bitrate_entries">
+        <item>ዝቅተኛ</item>
+        <item>መደበኛ</item>
+        <item>ከፍተኛ</item>
+        <item>ሁልጊዜ ከፍተኛ</item>
+    </array>
+    <array name="double_tap_length_entries">
+        <item>5 ሰከንዶች</item>
+        <item>10 ሰከንዶች</item>
+        <item>15 ሰከንዶች</item>
+        <item>20 ሰከንዶች</item>
+        <item>30 ሰከንዶች</item>
+        <item>60 ሰከንዶች</item>
+    </array>
+</resources>

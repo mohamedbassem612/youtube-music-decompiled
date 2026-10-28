@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="10dp"
+    android:textColor="@color/yt_white1"
+    android:gravity="center"
+    android:id="@+id/new_content_count"
+    android:background="@drawable/new_content_count_background"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="16sp"
+    android:minWidth="16sp"
+    android:includeFontPadding="false"
+    android:paddingStart="4sp"
+    android:paddingEnd="4sp"/>

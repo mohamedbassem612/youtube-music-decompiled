@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/yt_black1"/>
+    <corners android:radius="@dimen/yt_sys_measurement_radius_compact"/>
+    <padding
+        android:top="0dp"
+        android:bottom="0dp"
+        android:start="8dp"
+        android:end="8dp"/>
+</shape>
